@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component renders Portfolio 1`] = `
+<DocumentFragment>
+  <div>
+    Portfolio
+  </div>
+</DocumentFragment>
+`;

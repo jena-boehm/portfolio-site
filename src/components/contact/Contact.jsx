@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const App = () => {
+export const Contact = () => {
   return (
     <div>
-      
+            Contact
     </div>
   );
 };
