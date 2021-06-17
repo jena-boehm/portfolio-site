@@ -1,0 +1,12 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    min-height: 90vh;
+    width: auto;
+    margin: 10vh 0 0 0;
+    padding: 0;
+}

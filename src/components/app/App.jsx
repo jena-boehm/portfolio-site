@@ -4,10 +4,13 @@ import { About } from '../about/About';
 import { Contact } from '../contact/Contact';
 import { Home } from '../home/Home';
 import { Portfolio } from '../portfolio/Portfolio';
+import { Header } from '../header/Header.jsx';
+import './App.css';
 
 export const App = () => {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route 
           exact

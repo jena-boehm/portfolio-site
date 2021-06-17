@@ -2,8 +2,16 @@
 
 exports[`Home component renders Home 1`] = `
 <DocumentFragment>
-  <div>
-    Home
+  <div
+    class="homeContainer"
+  >
+    <img
+      alt="Jena Lux Boehm - Software Engineer"
+      class="homeGraphic"
+      height="90%"
+      src="/path/image"
+      width="90%"
+    />
   </div>
 </DocumentFragment>
 `;
