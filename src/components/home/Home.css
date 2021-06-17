@@ -1,0 +1,12 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89%;
+    width: 100%;
+
+    .homeGraphic {
+        margin: 1em;
+        box-shadow: 0 0px 8px 0px rgba(255,255,255, 0.2);
+    }
+}

@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Contact.css';
 
 export const Contact = () => {
   return (
-    <div>
+    <div className={styles.contactContainer}>
             Contact
     </div>
   );

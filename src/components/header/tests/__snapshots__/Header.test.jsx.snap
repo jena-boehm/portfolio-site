@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`Header component renders Header 1`] = `
 <DocumentFragment>
   <div
     class="headerContainer"
@@ -28,17 +28,6 @@ exports[`App component renders App 1`] = `
     >
       Contact
     </a>
-  </div>
-  <div
-    class="homeContainer"
-  >
-    <img
-      alt="Jena Lux Boehm - Software Engineer"
-      class="homeGraphic"
-      height="90%"
-      src="/path/image"
-      width="90%"
-    />
   </div>
 </DocumentFragment>
 `;

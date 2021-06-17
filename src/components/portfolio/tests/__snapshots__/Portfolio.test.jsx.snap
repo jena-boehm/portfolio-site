@@ -2,7 +2,9 @@
 
 exports[`Portfolio component renders Portfolio 1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    class="portfolioContainer"
+  >
     Portfolio
   </div>
 </DocumentFragment>
