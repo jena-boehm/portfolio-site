@@ -5,7 +5,34 @@ exports[`About component renders About 1`] = `
   <div
     class="aboutContainer"
   >
-    About
+    <h1
+      class="titleLeft"
+    >
+      ABOUT
+    </h1>
+    <section
+      class="aboutTop"
+    >
+      <div
+        class="crop"
+      >
+        <img
+          alt="Jena headshot"
+          class="headshot"
+          height="50%"
+          src="/path/image"
+          width="auto"
+        />
+      </div>
+      <div
+        class="description"
+      >
+        Multifaceted, intuitive, and detail-driven Full Stack Software Engineer.
+      </div>
+    </section>
+    <section
+      class="aboutMain"
+    />
   </div>
 </DocumentFragment>
 `;

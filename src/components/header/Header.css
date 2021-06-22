@@ -1,6 +1,6 @@
  .headerContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     overflow: hidden;
@@ -8,4 +8,21 @@
     height: 10vh;
     width: 100%;
     border: 1px solid white;
+    padding: 2em;
+
+    .headerRight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: right;
+
+      .brackets {
+         margin: 1em;
+      }
     }
+
+    .headerLeft {
+      float: left;
+      font-size: 2em;
+   }
+}

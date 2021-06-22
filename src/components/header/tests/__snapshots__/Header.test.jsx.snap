@@ -6,8 +6,19 @@ exports[`Header component renders Header 1`] = `
     class="headerContainer"
   >
     <section
+      class="headerLeft"
+    >
+      <div />
+    </section>
+    <section
       class="headerRight"
     >
+      <img
+        alt="left curly bracket"
+        class="brackets"
+        height="25vh"
+        src="/path/image"
+      />
       <a
         href="/"
       >
@@ -31,6 +42,12 @@ exports[`Header component renders Header 1`] = `
       >
         Contact
       </a>
+      <img
+        alt="right curly bracket"
+        class="brackets"
+        height="25vh"
+        src="/path/image"
+      />
     </section>
   </div>
 </DocumentFragment>
