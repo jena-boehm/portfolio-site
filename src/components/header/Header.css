@@ -9,6 +9,8 @@
     width: 100%;
     border: 1px solid white;
     padding: 2em;
+    background-color: black;
+    z-index: 1;
 
     .headerRight {
       display: flex;
