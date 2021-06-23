@@ -5,29 +5,50 @@ exports[`App component renders App 1`] = `
   <div
     class="headerContainer"
   >
-    <a
-      href="/"
+    <section
+      class="headerLeft"
     >
-      Home
-    </a>
-       |  
-    <a
-      href="/portfolio"
+      <div />
+    </section>
+    <section
+      class="headerRight"
     >
-      Portfolio
-    </a>
-       |  
-    <a
-      href="/about"
-    >
-      About
-    </a>
-       |  
-    <a
-      href="/contact"
-    >
-      Contact
-    </a>
+      <img
+        alt="left curly bracket"
+        class="brackets"
+        height="25vh"
+        src="/path/image"
+      />
+      <a
+        href="/"
+      >
+        Home
+      </a>
+         |  
+      <a
+        href="/portfolio"
+      >
+        Portfolio
+      </a>
+         |  
+      <a
+        href="/about"
+      >
+        About
+      </a>
+         |  
+      <a
+        href="/contact"
+      >
+        Contact
+      </a>
+      <img
+        alt="right curly bracket"
+        class="brackets"
+        height="25vh"
+        src="/path/image"
+      />
+    </section>
   </div>
   <div
     class="homeContainer"

@@ -1,8 +1,106 @@
 .aboutContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    flex-direction: column;
+    height: max-content;
     width: 100%;
-    border: 1px solid red;
+    box-sizing: border-box;
+
+    .titleLeft {
+        transform: rotate(270deg);
+        font-size: 8em;
+        letter-spacing: 0.1em;
+        margin: 0;
+        padding: 0;
+        height: max-content;
+        opacity: 0.4;
+        position: fixed;
+        left: -1.1em;
+        top: 2.7em;
+    }
+
+    .aboutRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        margin: 2em 2em 2em 10em;
+        padding: 0;
+
+        .rightTop {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .crop {
+                width: 10em;
+                height: 10em;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+            
+                .headshot {
+                    display: inline-block;
+                    margin-left: -37%;
+                    height: 110%;
+                    width: auto;
+                }
+            }
+
+            .description {
+                font-size: 1.1em;
+                margin-top: 2em;
+            }
+        }
+
+        .rightMain {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin: 2em 0 2em 0;
+
+            .bio {
+                width: 40%;
+                line-height: 2em;
+                text-align: justify;
+                padding: 0 1em 0 1em;
+            }
+
+            .line {
+                height: 90%;
+                width: 5%;
+                background-image: url('../../../public/images/vertical-line.png');
+                background-repeat: repeat-y;
+                background-position: center;
+                background-size: 10%;
+                opacity: 0.5;
+            }
+
+            .techStack {
+                width: 40%;
+                line-height: 1.3em;
+                text-align: justify;
+                padding: 0 1em 0 1em;
+
+                .techStackTitle {
+                    text-align: center;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .bottomBlurb {
+            width: 70%;
+            text-align: center;
+            line-height: 1.5em;
+        }
+    }
 }
