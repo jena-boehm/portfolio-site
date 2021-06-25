@@ -5,7 +5,108 @@ exports[`Portfolio component renders Portfolio 1`] = `
   <div
     class="portfolioContainer"
   >
-    Portfolio
+    <h1
+      class="titleLeft"
+    >
+      PORTFOLIO
+    </h1>
+    <section
+      class="portfolioMain"
+    >
+      <section
+        class="filterSearch"
+      >
+        Title or something
+      </section>
+      <section
+        class="portfolioGrid"
+      >
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Sonic Blooming
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Sonic Blooming"
+              class="projectImage"
+              height="200em"
+              src="../public/images/sonic-blooming.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Flourish
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Flourish"
+              class="projectImage"
+              height="200em"
+              src="../public/images/flourish.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Traktion
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Traktion"
+              class="projectImage"
+              height="200em"
+              src="../public/images/traktion.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Aurora Synth
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Aurora Synth"
+              class="projectImage"
+              height="200em"
+              src="../public/images/aurora-synth.png"
+            />
+          </figure>
+        </div>
+      </section>
+    </section>
   </div>
 </DocumentFragment>
 `;

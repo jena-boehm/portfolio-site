@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { Portfolio } from '../Portfolio';
+import { Portfolio } from '../PortfolioList';
 
 describe('Portfolio component', () => {
   afterEach(() => cleanup());

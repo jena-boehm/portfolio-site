@@ -42,10 +42,22 @@ export const Header = () => {
                 Jena Lux Boehm</div>
             </section>
             <section className={styles.headerRight}>
+              <img 
+                className={styles.brackets}
+                src={leftBracket}
+                alt="left curly bracket"
+                height="25vh"
+              />
               <Link to="/">Home</Link> &nbsp; | &nbsp;
               <Link to="/portfolio">Portfolio</Link>&nbsp;  | &nbsp;
               <Link to="/about">About</Link> &nbsp; | &nbsp;
               <Link to="/contact">Contact</Link> 
+              <img 
+                className={styles.brackets}
+                src={rightBracket}
+                alt="right curly bracket"
+                height="25vh"
+              />
             </section>
           </div>
         )}
