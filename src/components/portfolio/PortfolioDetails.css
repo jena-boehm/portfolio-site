@@ -1,0 +1,8 @@
+.projectDetails {
+    background-color: black;
+    width: 100vh;
+    text-align: center;
+    line-height: 1.5em;
+    box-shadow: 0 0 400px 400px rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+}

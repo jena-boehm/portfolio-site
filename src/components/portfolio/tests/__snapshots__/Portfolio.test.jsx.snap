@@ -5,7 +5,104 @@ exports[`Portfolio component renders Portfolio 1`] = `
   <div
     class="portfolioContainer"
   >
-    Portfolio
+    <h1
+      class="titleLeft"
+    >
+      PORTFOLIO
+    </h1>
+    <section
+      class="portfolioMain"
+    >
+      <section
+        class="filterSearch"
+      >
+        Title or something
+      </section>
+      <section
+        class="portfolioGrid"
+      >
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            />
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Sonic Blooming"
+              aria-describedby="popup-1"
+              class="projectImage"
+              height="200em"
+              src="../public/images/sonic-blooming.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            />
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Flourish"
+              aria-describedby="popup-2"
+              class="projectImage"
+              height="200em"
+              src="../public/images/flourish.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            />
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Traktion"
+              aria-describedby="popup-3"
+              class="projectImage"
+              height="200em"
+              src="../public/images/traktion.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            />
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Aurora Synth"
+              aria-describedby="popup-4"
+              class="projectImage"
+              height="200em"
+              src="../public/images/aurora-synth.png"
+            />
+          </figure>
+        </div>
+      </section>
+    </section>
   </div>
 </DocumentFragment>
 `;
