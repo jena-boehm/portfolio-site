@@ -8,7 +8,7 @@ export default [
     deployed: 'https://www.sonicblooming.com/', 
     github: 'https://github.com/mikeymasonic/sonicBlooming',
     technologies: 'JavaScript | React | CSS | Context API | p5.js | Web Audio API | Google Drive API',
-    image: '../public/images/sonic-blooming.png'
+    image: './images/sonic-blooming.png'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export default [
     github: 'https://github.com/FlourishTeam',
     demo: '',
     technologies: 'React | Context API | CSS | Node.js | PostgreSQL | Express.js | GraphQL | Heroku',
-    image: '../public/images/flourish.png'
+    image: './images/flourish.png'
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ export default [
     github: 'https://github.com/Alchemy-Traction/traction',
     demo: '',
     technologies: 'NodeJS | PostgreSQL | ExpressJS | AWS Rekognition | Twilio | Heroku',
-    image: '../public/images/traktion.png'
+    image: './images/traktion.png'
   },
   {
     id: '4',
@@ -40,6 +40,6 @@ export default [
     github: 'https://github.com/jena-boehm/aurora',
     demo: '',
     technologies: 'Vanilla JavaScript | HTML | CSS | Web Audio API',
-    image: '../public/images/aurora-synth.png'
+    image: './images/aurora-synth.png'
   }
 ];

@@ -37,7 +37,7 @@ exports[`Portfolio component renders Portfolio 1`] = `
               aria-describedby="popup-1"
               class="projectImage"
               height="200em"
-              src="../public/images/sonic-blooming.png"
+              src="./images/sonic-blooming.png"
             />
           </figure>
         </div>
@@ -57,7 +57,7 @@ exports[`Portfolio component renders Portfolio 1`] = `
               aria-describedby="popup-2"
               class="projectImage"
               height="200em"
-              src="../public/images/flourish.png"
+              src="./images/flourish.png"
             />
           </figure>
         </div>
@@ -77,7 +77,7 @@ exports[`Portfolio component renders Portfolio 1`] = `
               aria-describedby="popup-3"
               class="projectImage"
               height="200em"
-              src="../public/images/traktion.png"
+              src="./images/traktion.png"
             />
           </figure>
         </div>
@@ -97,7 +97,7 @@ exports[`Portfolio component renders Portfolio 1`] = `
               aria-describedby="popup-4"
               class="projectImage"
               height="200em"
-              src="../public/images/aurora-synth.png"
+              src="./images/aurora-synth.png"
             />
           </figure>
         </div>
