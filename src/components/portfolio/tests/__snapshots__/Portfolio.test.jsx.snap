@@ -27,15 +27,14 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            >
-              Sonic Blooming
-            </div>
+            />
           </figcaption>
           <figure
             class="projectFigure"
           >
             <img
               alt="Sonic Blooming"
+              aria-describedby="popup-1"
               class="projectImage"
               height="200em"
               src="../public/images/sonic-blooming.png"
@@ -48,15 +47,14 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            >
-              Flourish
-            </div>
+            />
           </figcaption>
           <figure
             class="projectFigure"
           >
             <img
               alt="Flourish"
+              aria-describedby="popup-2"
               class="projectImage"
               height="200em"
               src="../public/images/flourish.png"
@@ -69,15 +67,14 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            >
-              Traktion
-            </div>
+            />
           </figcaption>
           <figure
             class="projectFigure"
           >
             <img
               alt="Traktion"
+              aria-describedby="popup-3"
               class="projectImage"
               height="200em"
               src="../public/images/traktion.png"
@@ -90,15 +87,14 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            >
-              Aurora Synth
-            </div>
+            />
           </figcaption>
           <figure
             class="projectFigure"
           >
             <img
               alt="Aurora Synth"
+              aria-describedby="popup-4"
               class="projectImage"
               height="200em"
               src="../public/images/aurora-synth.png"
