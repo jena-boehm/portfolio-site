@@ -22,7 +22,11 @@ export const PortfolioItem = (project) => {
               alt={project.name} 
               height="200em"/>
           )}>
-          <PortfolioItemDetails {...project}/>
+          {close => (
+            <PortfolioItemDetails 
+              {...project} 
+              close={close}/>
+          )}
         </Popup>
       </figure>
     </>

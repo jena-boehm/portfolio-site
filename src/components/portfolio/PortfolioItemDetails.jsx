@@ -3,9 +3,24 @@ import React from 'react';
 import styles from './PortfolioDetails.css';
 import PropTypes from 'prop-types';
 
-export const PortfolioItemDetails = ({ name, image, description, myContributions, deployed, github, technologies }) => {
+export const PortfolioItemDetails = ({ close, name, image, description, myContributions, deployed, github, technologies }) => {
   return (
     <section className={styles.projectDetails}>
+      <svg 
+        className={styles.close} 
+        fill="none" 
+        stroke="currentColor" 
+        viewBox="0 0 24 24" 
+        xmlns="http://www.w3.org/2000/svg"
+        height="1.5em"
+        onClick={close}>
+        <path 
+          strokeLinecap="round" 
+          strokeLinejoin="round" 
+          strokeWidth={2} 
+          d="M6 18L18 6M6 6l12 12" />
+      </svg>
+
       <h2 className={styles.name}>{name}</h2>
       <img 
         src={image} 
