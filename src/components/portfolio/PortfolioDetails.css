@@ -1,8 +1,38 @@
 .projectDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
     background-color: black;
     width: 100vh;
     text-align: center;
     line-height: 1.5em;
     box-shadow: 0 0 400px 400px rgba(0, 0, 0, 0.8);
     border: 1px solid white;
+
+    .name {
+        font-size: 2.3em;
+    }
+
+    .image {
+        margin: 1em;
+    }
+
+    .technologies {
+        margin: 1em;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .contributions {
+        width: 90%;
+        margin-top: 1em;
+    }
+
+    .detailsFooter {
+        margin: 1em;
+    }
 }

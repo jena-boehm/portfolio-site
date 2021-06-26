@@ -6,18 +6,23 @@ import PropTypes from 'prop-types';
 export const PortfolioItemDetails = ({ name, image, description, myContributions, deployed, github, technologies }) => {
   return (
     <section className={styles.projectDetails}>
-      <section className={styles.detailsHeader}>
-        <h2>{name}</h2>
-        <a href={deployed}>Deployed</a>
-        <a href={github}>GitHub</a>
-      </section>
+      <h2 className={styles.name}>{name}</h2>
       <img 
         src={image} 
         alt={name} 
-        height="200em"/>
-      <div>{technologies}</div>
-      <div>{description}</div>
-      <div>{myContributions}</div>
+        height="300em"
+        className={styles.image} />
+      <div className={styles.technologies}>{technologies}</div>
+      <div className={styles.description}>{description}</div>
+      <div className={styles.contributions}>{myContributions}</div>
+      <section className={styles.detailsFooter}>
+        <a 
+          href={deployed}
+          className={styles.link}>Deployed</a>&nbsp; | &nbsp;
+        <a 
+          href={github}
+          className={styles.link}>GitHub</a>
+      </section>
     </section>
   );
 };
