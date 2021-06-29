@@ -16,9 +16,36 @@
       justify-content: center;
       align-items: center;
       float: right;
+      margin-right: 4em;
 
-      .brackets {
-         margin: 1em;
+      .navOpen {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row;
+         position: fixed;
+         left: 85em;
+         overflow: hidden;
+         animation: 1s 1 forwards open-menu;
+
+         .brackets {
+            margin: 1em;
+         }
+      }
+
+      .navClosed {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row;
+         position: fixed;
+         left: 85em;
+         overflow: hidden;
+         animation: 2s 1 forwards close-menu;
+
+         .brackets {
+            margin: 1em;
+         }
       }
     }
 
@@ -27,3 +54,25 @@
       font-size: 2em;
    }
 }
+
+@keyframes open-menu {
+   from {
+     left: 85em;
+     height: 0em;
+   }
+ 
+   to {
+     left: 60em;
+   }
+ }
+
+ @keyframes close-menu {
+   from {
+     left: 60em;
+   }
+ 
+   to {
+     left: 85em;
+     height: 0em;
+   }
+ }

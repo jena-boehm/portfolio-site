@@ -43,6 +43,7 @@ export const PortfolioItemDetails = ({ close, name, image, description, myContri
 };
 
 PortfolioItemDetails.propTypes = {
+  close: PropTypes.bool.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
