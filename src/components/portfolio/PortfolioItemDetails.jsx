@@ -43,10 +43,11 @@ export const PortfolioItemDetails = ({ close, name, image, description, myContri
 };
 
 PortfolioItemDetails.propTypes = {
+  close: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  myContributions: PropTypes.string.isRequired,
+  myContributions: PropTypes.string,
   deployed: PropTypes.string,
   github: PropTypes.string.isRequired,
   technologies: PropTypes.string.isRequired
