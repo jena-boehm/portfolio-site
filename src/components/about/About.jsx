@@ -1,15 +1,18 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import styles from './About.css';
 import headshot from '../../../public/images/headshot.jpg';
 
 export const About = () => {
+  const location = useLocation();
+
   return (
     <div className={styles.aboutContainer}>
-      <h1 className={styles.titleLeft}>
+      <h1 className={location.pathname === '/' ? styles.titleHome : styles.titleLeft}>
             ABOUT
       </h1>
-      <section className={styles.aboutRight}>
+      <section className={styles.aboutRight} style={location.pathname === '/' ? { margin: '2em' } : { margin: '2em 2em 2em 10em' } }>
         <section className={styles.rightTop}>
           <div className={styles.crop}>
             <img
