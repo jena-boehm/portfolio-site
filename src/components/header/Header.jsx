@@ -49,7 +49,7 @@ export const Header = () => {
           <div className={styles.headerContainer}>
             <section className={styles.headerLeft}>
               <div className={styles.name}>
-                Jena Lux Boehm</div>
+                JENA LUX BOEHM</div>
             </section>
             <section className={styles.headerRight}>
               <Burger open={open} isOpen={isOpen} />

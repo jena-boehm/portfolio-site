@@ -3,7 +3,7 @@ export default [
   {
     id: '1',
     name: 'Sonic Blooming',
-    description: 'An interactive app for a soundwalk installation at the Portland International Rose Test Garden. Compositions were created by artist Crystal Cortez from electrical impulse data read by sensors and collected from various plants in a process called "Biodata Sonification." I helped create the website that allows users to navigate the gardens and listen to these compositions, collaborating remotely with another engineer, Mikey Romay.',
+    description: 'An interactive app for a soundwalk installation at the Portland International Rose Test Garden. Compositions were created by artist Crystal Cortez from electrical impulse data read by sensors and collected from various plants in a process called "Biodata Sonification." I helped create the website that allows users to navigate the gardens and listen to these compositions, collaborating remotely with another engineer.',
     myContributions: 'As the lead designer, I used React, Context API, and CSS to build UI components, create a seamless user experience, and ensure mobile/browser compatibility.',
     deployed: 'https://www.sonicblooming.com/', 
     github: 'https://github.com/mikeymasonic/sonicBlooming',

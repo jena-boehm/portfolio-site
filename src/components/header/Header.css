@@ -1,11 +1,4 @@
-@font-face {
-   font-family: 'Lovelo Black';
-   font-style: normal;
-   font-weight: normal;
-   src: local('Lovelo Black'), url('../../../public/fonts/Lovelo-Black.woff') format('woff');
-}
- 
- .headerContainer {
+.headerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +29,7 @@
          overflow: hidden;
          animation: 1s 1 forwards open-menu;
          width: max-content;
+         font-family: 'Montserrat', sans-serif;
 
          .brackets {
             margin: 1em;
@@ -62,7 +56,7 @@
     .headerLeft {
       float: left;
       font-size: 2em;
-      font-family: 'Lovelo Black';
+      font-family: 'Montserrat', sans-serif;
       letter-spacing: 0.15em;
       opacity: 0.5;
    }

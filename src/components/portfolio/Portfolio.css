@@ -6,18 +6,20 @@
     height: max-content;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
     .titleLeft {
         transform: rotate(270deg);
-        font-size: 5.5em;
-        letter-spacing: 0.1em;
+        font-size: 6em;
+        letter-spacing: 0.05em;
         margin: 0;
         padding: 0;
         height: max-content;
-        opacity: 0.4;
+        opacity: 0.3;
         position: fixed;
-        left: -2.2em;
-        top: 4.1em;
+        left: -2.1em;
+        top: 3.8em;
+        font-weight: 300;
     }
 
     .portfolioMain {
