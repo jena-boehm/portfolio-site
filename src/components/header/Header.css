@@ -27,6 +27,7 @@
          left: 85em;
          overflow: hidden;
          animation: 1s 1 forwards open-menu;
+         width: max-content;
 
          .brackets {
             margin: 1em;
@@ -41,7 +42,8 @@
          position: fixed;
          left: 85em;
          overflow: hidden;
-         animation: 2s 1 forwards close-menu;
+         animation: 1s 1 forwards close-menu;
+         width: max-content;
 
          .brackets {
             margin: 1em;
@@ -56,14 +58,13 @@
 }
 
 @keyframes open-menu {
-   from {
-     left: 85em;
-     height: 0em;
-   }
- 
-   to {
-     left: 60em;
-   }
+   0%   { transform: scale(1,1)    translateX(0); }
+        10%  { transform: scale(1.1,.9) translateX(0); }
+        30%  { transform: scale(.9,1.1) translateX(-25em); }
+        50%  { transform: scale(1,1)    translateX(-26em); }
+        57%  { transform: scale(1,1)    translateX(-26em); }
+        64%  { transform: scale(1,1)    translateX(-26em); }
+        100% { transform: scale(1,1)    translateX(-25em); }
  }
 
  @keyframes close-menu {
@@ -73,6 +74,5 @@
  
    to {
      left: 85em;
-     height: 0em;
    }
  }
