@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'Lovelo Black';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lovelo Black'), url('../../../public/fonts/Lovelo-Black.woff') format('woff');
+}
+ 
  .headerContainer {
     display: flex;
     justify-content: space-between;
@@ -25,7 +32,7 @@
          align-items: center;
          flex-direction: row;
          position: fixed;
-         left: 85em;
+         left: 83em;
          overflow: hidden;
          animation: 1s 1 forwards open-menu;
          width: max-content;
@@ -55,25 +62,23 @@
     .headerLeft {
       float: left;
       font-size: 2em;
+      font-family: 'Lovelo Black';
+      letter-spacing: 0.15em;
+      opacity: 0.5;
    }
 }
 
 @keyframes open-menu {
    0%   { transform: scale(1,1)    translateX(0); }
-        10%  { transform: scale(1.1,.9) translateX(0); }
-        30%  { transform: scale(.9,1.1) translateX(-25em); }
-        50%  { transform: scale(1,1)    translateX(-26em); }
-        57%  { transform: scale(1,1)    translateX(-26em); }
-        64%  { transform: scale(1,1)    translateX(-26em); }
-        100% { transform: scale(1,1)    translateX(-25em); }
+   10%  { transform: scale(1.1,.9) translateX(0); }
+   30%  { transform: scale(.9,1.1) translateX(-25em); }
+   50%  { transform: scale(1,1)    translateX(-26em); }
+   57%  { transform: scale(1,1)    translateX(-26em); }
+   64%  { transform: scale(1,1)    translateX(-26em); }
+   100% { transform: scale(1,1)    translateX(-25em); }
  }
 
  @keyframes close-menu {
-   from {
-     left: 60em;
-   }
- 
-   to {
-     left: 85em;
-   }
+   from { left: 60em; }
+   to { left: 85em; }
  }

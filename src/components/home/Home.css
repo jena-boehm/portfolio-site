@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 2.6em 0 2em 0;
+    box-shadow: inset 0 0 50px 40px rgb(0, 0, 0);
 
     /* .homeGraphic {
         margin: 1em;
