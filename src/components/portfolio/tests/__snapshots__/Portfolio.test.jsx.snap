@@ -14,11 +14,6 @@ exports[`Portfolio component renders Portfolio 1`] = `
       class="portfolioMain"
     >
       <section
-        class="filterSearch"
-      >
-        Title or something
-      </section>
-      <section
         class="portfolioGrid"
       >
         <div
@@ -27,7 +22,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Sonic Blooming
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -47,7 +44,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Flourish
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -67,7 +66,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Traktion
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -87,7 +88,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Aurora Synth
+            </div>
           </figcaption>
           <figure
             class="projectFigure"

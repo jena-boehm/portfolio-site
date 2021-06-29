@@ -7,7 +7,7 @@ export const PortfolioItem = (project) => {
   return (
     <>
       <figcaption>
-        <div className={styles.projectName}>{name}</div>
+        <div className={styles.projectName}>{project.name}</div>
       </figcaption>
 
       <figure className={styles.projectFigure}>
