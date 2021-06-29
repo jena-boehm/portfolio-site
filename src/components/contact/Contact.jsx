@@ -16,7 +16,8 @@ export const Contact = () => {
       method: 'POST',
       body: JSON.stringify({ name, email, role, company, message })
     })
-      .then(() => setIsSent(true));
+      .then(() => setIsSent(true))
+      .catch(() => alert('There was an error, please try again'));
   };
 
   const thankYouMessage = <div>Thanks for reaching out! We&apos;l be in touch. In the meantime, let&apos;s connect on LinkedIn and GitHub!</div>;
@@ -26,26 +27,31 @@ export const Contact = () => {
     onSubmit={handleSubmit}>
     <label htmlFor="name">Name</label>
     <input
+      required
       type="name"
       name="name"
       onChange={e => setName(e.target.value)}/>
     <label htmlFor="email">Email</label> 
     <input
+      required
       type="email"
       name="email"
       onChange={e => setEmail(e.target.value)}/>
     <label htmlFor="role">Role</label> 
     <input
+      required
       type="role"
       name="role"
       onChange={e => setRole(e.target.value)}/>  
     <label htmlFor="company">Company</label> 
     <input
+      required
       type="company"
       name="company"
       onChange={e => setCompany(e.target.value)}/>
     <label htmlFor="message">Message</label> 
     <input
+      required
       type="message"
       name="message"
       onChange={e => setMessage(e.target.value)}/>
