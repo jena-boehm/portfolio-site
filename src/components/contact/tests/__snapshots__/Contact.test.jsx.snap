@@ -31,6 +31,7 @@ exports[`Contact component renders Contact 1`] = `
           </label>
           <input
             name="name"
+            required=""
             type="name"
           />
           <label
@@ -40,6 +41,7 @@ exports[`Contact component renders Contact 1`] = `
           </label>
           <input
             name="email"
+            required=""
             type="email"
           />
           <label
@@ -49,6 +51,7 @@ exports[`Contact component renders Contact 1`] = `
           </label>
           <input
             name="role"
+            required=""
             type="role"
           />
           <label
@@ -58,6 +61,7 @@ exports[`Contact component renders Contact 1`] = `
           </label>
           <input
             name="company"
+            required=""
             type="company"
           />
           <label
@@ -67,6 +71,7 @@ exports[`Contact component renders Contact 1`] = `
           </label>
           <input
             name="message"
+            required=""
             type="message"
           />
           <button

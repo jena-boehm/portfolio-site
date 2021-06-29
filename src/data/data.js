@@ -18,7 +18,7 @@ export default [
     deployed: 'https://flourish-pro.netlify.app/', 
     github: 'https://github.com/FlourishTeam',
     demo: '',
-    technologies: 'React | Context API | CSS | Node.js | PostgreSQL | Express.js | GraphQL | Heroku',
+    technologies: 'JavaScript | React | Context API | CSS | Node.js | PostgreSQL | Express.js | GraphQL | Heroku',
     image: './images/flourish.png'
   },
   {
@@ -28,7 +28,7 @@ export default [
     myContributions: 'My main contributions were the services files and methods that brought all our technologies together, as well as AWS Rekognition functions that verify the user\'s habit completion submissions.',
     github: 'https://github.com/Alchemy-Traction/traction',
     demo: '',
-    technologies: 'NodeJS | PostgreSQL | ExpressJS | AWS Rekognition | Twilio | Heroku',
+    technologies: 'JavaScript | NodeJS | PostgreSQL | ExpressJS | AWS Rekognition | Twilio | Heroku',
     image: './images/traktion.png'
   },
   {
@@ -40,6 +40,14 @@ export default [
     github: 'https://github.com/jena-boehm/aurora',
     demo: '',
     technologies: 'Vanilla JavaScript | HTML | CSS | Web Audio API',
+    image: './images/aurora-synth.png'
+  },
+  {
+    id: '5',
+    name: 'Portfolio Site',
+    description: 'The site that you\'re admiring right now! Site design and mockups sketched with Figma, built with React and CSS, and Gmail contact form integration created with React Hooks and a fetch to Zapier. Send me a message on the contact page to let me know what you think! Designed and developed by yours truly.',
+    github: 'https://github.com/jena-boehm/portfolio-site',
+    technologies: 'JavaScript | React | CSS | Webhooks by Zapier',
     image: './images/aurora-synth.png'
   }
 ];

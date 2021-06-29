@@ -104,6 +104,28 @@ exports[`Portfolio component renders Portfolio 1`] = `
             />
           </figure>
         </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Portfolio Site
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Portfolio Site"
+              aria-describedby="popup-5"
+              class="projectImage"
+              height="200em"
+              src="./images/aurora-synth.png"
+            />
+          </figure>
+        </div>
       </section>
     </section>
   </div>
