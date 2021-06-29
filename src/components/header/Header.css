@@ -10,6 +10,7 @@
     padding: 2em;
     background-color: black;
     z-index: 1;
+    box-shadow: 0 1px 4px -3px white;
 
     .headerRight {
       display: flex;
