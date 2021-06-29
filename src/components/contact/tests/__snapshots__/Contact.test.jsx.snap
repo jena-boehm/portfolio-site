@@ -5,7 +5,83 @@ exports[`Contact component renders Contact 1`] = `
   <div
     class="contactContainer"
   >
-    Contact
+    <h1
+      class="titleLeft"
+    >
+      CONTACT
+    </h1>
+    <section
+      class="aboutRight"
+    >
+      <section
+        class="rightTop"
+      >
+        Let's chat!
+      </section>
+      <section
+        class="rightMain"
+      >
+        <form
+          class="form"
+        >
+          <label
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            name="name"
+            required=""
+            type="name"
+          />
+          <label
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            name="email"
+            required=""
+            type="email"
+          />
+          <label
+            for="role"
+          >
+            Role
+          </label>
+          <input
+            name="role"
+            required=""
+            type="role"
+          />
+          <label
+            for="company"
+          >
+            Company
+          </label>
+          <input
+            name="company"
+            required=""
+            type="company"
+          />
+          <label
+            for="message"
+          >
+            Message
+          </label>
+          <input
+            name="message"
+            required=""
+            type="message"
+          />
+          <button
+            type="submit"
+          >
+            Send
+          </button>
+        </form>
+      </section>
+    </section>
   </div>
 </DocumentFragment>
 `;

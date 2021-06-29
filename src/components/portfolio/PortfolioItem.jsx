@@ -7,7 +7,7 @@ export const PortfolioItem = (project) => {
   return (
     <>
       <figcaption>
-        <div className={styles.projectName}>{name}</div>
+        <div className={styles.projectName}>{project.name}</div>
       </figcaption>
 
       <figure className={styles.projectFigure}>
@@ -22,7 +22,11 @@ export const PortfolioItem = (project) => {
               alt={project.name} 
               height="200em"/>
           )}>
-          <PortfolioItemDetails {...project}/>
+          {close => (
+            <PortfolioItemDetails 
+              {...project} 
+              close={close}/>
+          )}
         </Popup>
       </figure>
     </>

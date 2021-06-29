@@ -23,9 +23,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@typeform/embed-react": "^1.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "react-typeform-embed": "^0.2.1",
     "react-uuid": "^1.0.2",
     "reactjs-popup": "^2.0.4"
   },

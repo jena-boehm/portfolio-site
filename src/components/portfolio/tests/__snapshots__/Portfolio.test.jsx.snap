@@ -14,11 +14,6 @@ exports[`Portfolio component renders Portfolio 1`] = `
       class="portfolioMain"
     >
       <section
-        class="filterSearch"
-      >
-        Title or something
-      </section>
-      <section
         class="portfolioGrid"
       >
         <div
@@ -27,7 +22,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Sonic Blooming
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -47,7 +44,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Flourish
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -67,7 +66,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Traktion
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -87,7 +88,9 @@ exports[`Portfolio component renders Portfolio 1`] = `
           <figcaption>
             <div
               class="projectName"
-            />
+            >
+              Aurora Synth
+            </div>
           </figcaption>
           <figure
             class="projectFigure"
@@ -95,6 +98,28 @@ exports[`Portfolio component renders Portfolio 1`] = `
             <img
               alt="Aurora Synth"
               aria-describedby="popup-4"
+              class="projectImage"
+              height="200em"
+              src="./images/aurora-synth.png"
+            />
+          </figure>
+        </div>
+        <div
+          class="projectItem"
+        >
+          <figcaption>
+            <div
+              class="projectName"
+            >
+              Portfolio Site
+            </div>
+          </figcaption>
+          <figure
+            class="projectFigure"
+          >
+            <img
+              alt="Portfolio Site"
+              aria-describedby="popup-5"
               class="projectImage"
               height="200em"
               src="./images/aurora-synth.png"

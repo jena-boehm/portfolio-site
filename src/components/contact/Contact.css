@@ -1,8 +1,65 @@
 .contactContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    flex-direction: column;
+    height: max-content;
     width: 100%;
-    border: 1px solid red;
+    box-sizing: border-box;
+
+    .titleLeft {
+        transform: rotate(270deg);
+        font-size: 7em;
+        letter-spacing: 0.1em;
+        margin: 0;
+        padding: 0;
+        height: max-content;
+        opacity: 0.4;
+        position: fixed;
+        left: -1.8em;
+        top: 3.2em;
+    }
+
+    .aboutRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        margin: 2em 2em 2em 10em;
+        padding: 0;
+
+        .rightTop {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 2em;
+            font-size: 2em;
+        }
+
+        .rightMain {
+            width: 100%;
+            height: max-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2em 0 2em 0;
+
+            .form {
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                input {
+                    color: black;
+                }
+            }
+        }
+    }
 }

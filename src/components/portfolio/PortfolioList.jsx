@@ -19,9 +19,6 @@ export const Portfolio = () => {
             PORTFOLIO
       </h1>
       <section className={styles.portfolioMain}>
-        <section className={styles.filterSearch}>
-          Title or something
-        </section>
         <section className={styles.portfolioGrid}>
           {portfolioList}
         </section>

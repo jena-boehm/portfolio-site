@@ -2,11 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 89%;
+    height: 90vh;
     width: 100%;
+    background-color: #000000;
+    background-image: url('../../../public/images/home-graphic.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
 
-    .homeGraphic {
+    /* .homeGraphic {
         margin: 1em;
         box-shadow: 0 0px 8px 0px rgba(255,255,255, 0.2);
-    }
+        background-blend-mode: multiply;
+    } */
 }
