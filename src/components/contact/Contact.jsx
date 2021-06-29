@@ -12,7 +12,7 @@ export const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    fetch('https://hooks.zapier.com/hooks/catch/10440959/b3d89aj/', {
+    fetch(`${process.env.ZAPIER_URL}`, {
       method: 'POST',
       body: JSON.stringify({ name, email, role, company, message })
     })
