@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Portfolio.css';
-import data from '../../data/data.js';
+import { projects }  from '../../data/data.js';
 import uuid from 'react-uuid';
 import { PortfolioItem } from './PortfolioItem';
 
 export const Portfolio = () => {
-  const portfolioList = data.map(project => {
+  const portfolioList = projects.map(project => {
     return (
       <div key={uuid()} className={styles.projectItem}>
         <PortfolioItem {...project} />

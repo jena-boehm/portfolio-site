@@ -16,7 +16,7 @@
         height: 4px;
         background-color: rgb(255, 255, 255);
         margin: 9px 0;
-        transition: 0.2s;
+        transition: 0.4s;
     }
 }
 
@@ -38,7 +38,7 @@
     height: 4px;
     background-color: rgb(255, 255, 255);
     margin: 3px 0;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
   .bar1 {

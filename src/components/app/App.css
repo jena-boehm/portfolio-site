@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
 
 * {
-    color: white;
     box-sizing: border-box;
-    font-family: 'Nixie One';
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background: linear-gradient(360deg, #0b0433, #000000);
+    background: linear-gradient(360deg, #0b0433 10%, #000000 100%);
     min-height: 90vh;
     width: auto;
     margin: 10vh 0 0 0;

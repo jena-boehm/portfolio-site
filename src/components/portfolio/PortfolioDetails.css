@@ -10,6 +10,8 @@
     line-height: 1.5em;
     box-shadow: 0 0 400px 400px rgba(0, 0, 0, 0.8);
     border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 
     .close {
         position: absolute;
@@ -28,6 +30,8 @@
 
     .name {
         font-size: 2.3em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
     }
 
     .image {
@@ -49,5 +53,9 @@
 
     .detailsFooter {
         margin: 1em;
+
+        a { 
+            color: white;
+        }
     }
 }
