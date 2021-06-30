@@ -98,6 +98,6 @@
  }
 
  @keyframes close-menu {
-   from { left: 60em; }
-   to { left: 200em; display: none;}
+   from { left: 87vw; }
+   to { left: 200vw; display: none;}
  }
