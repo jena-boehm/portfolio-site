@@ -3,7 +3,25 @@ import React from 'react';
 import styles from './PortfolioDetails.css';
 import PropTypes from 'prop-types';
 
-export const PortfolioItemDetails = ({ close, name, image, description, myContributions, deployed, github, technologies }) => {
+export const PortfolioItemDetails = ({ 
+  close, 
+  name, 
+  image, 
+  description, 
+  myContributions, 
+  deployed, 
+  github, 
+  technologies 
+}) => {
+
+  const handleDeployed = () => {
+    window.open(deployed);
+  };
+
+  const handleGitHub = () => {
+    window.open(github);
+  };
+
   return (
     <section className={styles.projectDetails}>
       <svg 
@@ -31,12 +49,17 @@ export const PortfolioItemDetails = ({ close, name, image, description, myContri
       <div className={styles.description}>{description}</div>
       <div className={styles.contributions}>{myContributions}</div>
       <section className={styles.detailsFooter}>
-        <a 
-          href={deployed}
-          className={styles.link}>Deployed</a>&nbsp; | &nbsp;
-        <a 
-          href={github}
-          className={styles.link}>GitHub</a>
+        {deployed &&
+        <>
+          <button 
+            className={styles.link}
+            onClick={handleDeployed}>Deployed</button>
+          <span>&nbsp; | &nbsp;</span>
+        </>
+        }
+        <button 
+          className={styles.link}
+          onClick={handleGitHub}>GitHub</button>
       </section>
     </section>
   );
