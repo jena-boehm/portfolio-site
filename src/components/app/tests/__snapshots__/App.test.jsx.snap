@@ -159,7 +159,7 @@ exports[`App component renders App 1`] = `
       >
         Other passions and skills:
         <br />
-        Electronic music production, audio engineering, DJing & live performing, concert & festival production, transcribing, volunteer coordination, dance, and classical piano.
+        Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
       </section>
       <section
         class="socials"
