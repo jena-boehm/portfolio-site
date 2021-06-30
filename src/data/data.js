@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-export default [
+export const projects = [
   {
     id: '1',
     name: 'Sonic Blooming',
@@ -51,3 +51,5 @@ export default [
     image: './images/aurora-synth.png'
   }
 ];
+
+export const resume = 'https://drive.google.com/file/d/1OpC6ciOq67-0HuqRt_nEo0HYYdH3n6Ws/view?usp=sharing';

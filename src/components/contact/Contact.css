@@ -6,6 +6,7 @@
     height: max-content;
     width: 100%;
     box-sizing: border-box;
+    color: white;
 
     .titleLeft {
         transform: rotate(270deg);
@@ -14,11 +15,13 @@
         margin: 0;
         padding: 0;
         height: max-content;
-        opacity: 0.3;
+        opacity: 0.2;
         position: fixed;
         left: -1.6em;
         top: 3em;
         font-weight: 300;
+        color: #B0B6FB;
+        text-shadow: 6px 6px 1px black;
     }
 
     .aboutRight {
@@ -28,39 +31,117 @@
         flex-direction: column;
         height: 100%;
         width: 90%;
-        margin: 2em 2em 2em 10em;
+        margin: 0 2em 1em 10em;
         padding: 0;
 
-        .rightTop {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin-top: 2em;
-            font-size: 2em;
-        }
-
         .rightMain {
-            width: 100%;
+            width: 60%;
             height: max-content;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            margin: 2em 0 2em 0;
+            margin: 0.5em 0 1em 0;
 
-            .form {
-                width: 60%;
+            .rightTop {
+                width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                margin: 1em 0 1em 0;
+                font-size: 2em;
+            }
 
-                input {
-                    color: black;
+            .form {
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid rgba(176, 182, 251, 0.2);
+                /* box-shadow: rgba(176, 182, 251, 0.24) 0px 3px 8px; */
+                box-shadow: rgba(176, 182, 251, 0.3) 0px 2px 5px 1px, rgba(176, 182, 251, 0.23) 0px 2px 6px 1px;
+                padding: 2em 0 1.5em 0;
+
+                .formInput { 
+                    position: relative;
+                    width: 70%;
+
+                    label { 
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        padding: 10px 0;
+                        font-size: 1em;;
+                        color: #fff;
+                        pointer-events: none;
+                        transition: .5s;
+                    }
+
+                    input {
+                        color: black;
+                        width: 100%;
+                        padding: 10px 0;
+                        font-size: 16px;
+                        color: #fff;
+                        margin-bottom: 30px;
+                        border: none;
+                        border-bottom: 1px solid #fff;
+                        outline: none;
+                        background: transparent;
+                    }
+
+                    input:focus + label {
+                        top: -20px;
+                        left: 0;
+                        color: #B0B6FB;
+                        font-size: 12px;
+                    }
+
+                }
+
+                button { 
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    text-transform: uppercase;
+                    box-shadow: 0 0 2px 0px #B0B6FB;
+                    padding: 0.5em 1em 0.5em 1em;
+                    letter-spacing: 0.1em;
+                    cursor: pointer;
+                    font-size: 1em;
+                    color: #B0B6FB;
+                    transition: 0.2s;
+                }
+
+                button:hover {
+                        color: white;
+                        font-size: 1.2em;
+                        padding: 0.3em 1.1em 0.3em 1.1em;
+                        transition: 0.2s;
+                }
+
+                button:active {
+                    font-size: 1em;
+                     box-shadow: inset 0 0 2px 0px #B0B6FB;
+                     padding: 0.5em 1em 0.5em 1em;
+
                 }
             }
+
+            .thankYou {
+                text-align: center;
+                margin: 5em 0 0 2em;
+                font-size: 1.5em;
+            }
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1em;
         }
     }
 }

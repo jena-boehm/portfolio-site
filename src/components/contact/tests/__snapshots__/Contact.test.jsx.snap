@@ -14,72 +14,173 @@ exports[`Contact component renders Contact 1`] = `
       class="aboutRight"
     >
       <section
-        class="rightTop"
-      >
-        Let's chat!
-      </section>
-      <section
         class="rightMain"
       >
+        <section
+          class="rightTop"
+        >
+          Let's chat!
+        </section>
         <form
           class="form"
         >
-          <label
-            for="name"
+          <div
+            class="formInput"
           >
-            Name
-          </label>
-          <input
-            name="name"
-            required=""
-            type="name"
-          />
-          <label
-            for="email"
+            <input
+              name="name"
+              required=""
+              type="name"
+            />
+            <label
+              for="name"
+            >
+              Name
+            </label>
+          </div>
+          <div
+            class="formInput"
           >
-            Email
-          </label>
-          <input
-            name="email"
-            required=""
-            type="email"
-          />
-          <label
-            for="role"
+            <input
+              name="email"
+              required=""
+              type="email"
+            />
+            <label
+              for="email"
+            >
+              Email
+            </label>
+          </div>
+          <div
+            class="formInput"
           >
-            Role
-          </label>
-          <input
-            name="role"
-            required=""
-            type="role"
-          />
-          <label
-            for="company"
+            <input
+              name="role"
+              required=""
+              type="role"
+            />
+            <label
+              for="role"
+            >
+              Role
+            </label>
+          </div>
+          <div
+            class="formInput"
           >
-            Company
-          </label>
-          <input
-            name="company"
-            required=""
-            type="company"
-          />
-          <label
-            for="message"
+            <input
+              name="company"
+              required=""
+              type="company"
+            />
+            <label
+              for="company"
+            >
+              Company
+            </label>
+          </div>
+          <div
+            class="formInput"
           >
-            Message
-          </label>
-          <input
-            name="message"
-            required=""
-            type="message"
-          />
+            <input
+              name="message"
+              required=""
+              type="message"
+            />
+            <label
+              for="message"
+            >
+              Message
+            </label>
+          </div>
           <button
             type="submit"
           >
             Send
           </button>
         </form>
+      </section>
+      <section
+        class="socials"
+      >
+        <div
+          class="socialsContainer"
+        >
+          <div
+            class="icons"
+          >
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="https://www.linkedin.com/in/jenaluxboehm/"
+              >
+                <img
+                  alt="LinkedIn Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="LinkedIn Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="https://github.com/jena-boehm"
+              >
+                <img
+                  alt="GitHub Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="GitHub Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="mailto:jenaluxboehm@gmail.com"
+              >
+                <img
+                  alt="Email Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="Email Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <button>
+            Resume
+          </button>
+        </div>
       </section>
     </section>
   </div>

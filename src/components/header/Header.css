@@ -30,6 +30,11 @@
          animation: 1s 1 forwards open-menu;
          width: max-content;
          font-family: 'Montserrat', sans-serif;
+         color: white;
+
+         a { 
+            color: white;
+         }
 
          .brackets {
             margin: 1em;
@@ -46,6 +51,11 @@
          overflow: hidden;
          animation: 1s 1 forwards close-menu;
          width: max-content;
+         color: white;
+
+         a { 
+            color: white;
+         }
 
          .brackets {
             margin: 1em;
@@ -58,7 +68,8 @@
       font-size: 2em;
       font-family: 'Montserrat', sans-serif;
       letter-spacing: 0.15em;
-      opacity: 0.5;
+      opacity: 0.7;
+      color: #B0B6FB;
    }
 }
 
@@ -74,5 +85,5 @@
 
  @keyframes close-menu {
    from { left: 60em; }
-   to { left: 85em; }
+   to { left: 200em; display: none;}
  }

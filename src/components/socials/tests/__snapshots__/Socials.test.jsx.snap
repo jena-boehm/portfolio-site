@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Socials component renders Socials 1`] = `
+<DocumentFragment>
+  <div
+    class="socialsContainer"
+  >
+    <div
+      class="icons"
+    >
+      <div
+        class="iconContainer"
+      >
+        <a
+          href="https://www.linkedin.com/in/jenaluxboehm/"
+        >
+          <img
+            alt="LinkedIn Icon"
+            class="iconBottom"
+            src="/path/image"
+          />
+          <div
+            class="iconTop"
+          >
+            <img
+              alt="LinkedIn Icon"
+              class="imgTop"
+              src="/path/image"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="iconContainer"
+      >
+        <a
+          href="https://github.com/jena-boehm"
+        >
+          <img
+            alt="GitHub Icon"
+            class="iconBottom"
+            src="/path/image"
+          />
+          <div
+            class="iconTop"
+          >
+            <img
+              alt="GitHub Icon"
+              class="imgTop"
+              src="/path/image"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="iconContainer"
+      >
+        <a
+          href="mailto:jenaluxboehm@gmail.com"
+        >
+          <img
+            alt="Email Icon"
+            class="iconBottom"
+            src="/path/image"
+          />
+          <div
+            class="iconTop"
+          >
+            <img
+              alt="Email Icon"
+              class="imgTop"
+              src="/path/image"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+    <button>
+      Resume
+    </button>
+  </div>
+</DocumentFragment>
+`;

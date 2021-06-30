@@ -7,6 +7,7 @@
     width: 100%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 
     .titleHome {
         font-size: 3.5em;
@@ -23,12 +24,14 @@
         margin: 0;
         padding: 0;
         height: max-content;
-        opacity: 0.3;
+        opacity: 0.2;
         position: fixed;
         left: -1.2em;
         top: 2.7em;
         z-index: -1;
         font-weight: 300;
+        color: #B0B6FB;
+        text-shadow: 6px 6px 1px black;
     }
 
     .aboutRight {
