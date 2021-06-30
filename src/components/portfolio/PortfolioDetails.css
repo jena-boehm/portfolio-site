@@ -99,6 +99,6 @@
     100% {
       transform: scale(1) translateY(0px);
       opacity: 1;
-      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+      box-shadow: 0 0 400px 400px rgba(0, 0, 0, 0.8);
     }
   }

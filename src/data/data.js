@@ -13,7 +13,7 @@ export const projects = [
   {
     id: '2',
     name: 'Flourish',
-    description: 'A fullstack app to help novice plant owners navigate the nursery and learn how to care for their plants. Users can search by text or photo to identify a plant and get detailed information on care. They can add plants to their collection, log care history and add custom notes. Developed with a team of 4 other engineers.',
+    description: 'A fullstack app to help novice plant owners navigate the nursery and learn how to care for their plants. Users can search by text or photo to identify a plant and get detailed information on care. They can add plants to their collection, log care history and add custom notes. Developed remotely with a team of 4 other engineers.',
     myContributions: 'My contributions were building authentication on the backend and frontend, using GraphQL queries on the frontend to render data, and constructing UI components.',
     deployed: 'https://flourish-pro.netlify.app/', 
     github: 'https://github.com/FlourishTeam',
@@ -24,7 +24,7 @@ export const projects = [
   {
     id: '3',
     name: 'Traktion',
-    description: 'An innovative backend SMS-based app that helps users form new habits. Facial and object recognition technology is used to verify the user\'s face and items related to their habit before confirming completion. Developed with a team of 5 other engineers.',
+    description: 'An innovative backend SMS-based app that helps users form new habits. Facial and object recognition technology is used to verify the user\'s face and items related to their habit before confirming completion. Developed remotely with a team of 5 other engineers.',
     myContributions: 'My main contributions were the services files and methods that brought all our technologies together, as well as AWS Rekognition functions that verify the user\'s habit completion submissions.',
     github: 'https://github.com/Alchemy-Traction/traction',
     demo: '',
@@ -34,7 +34,7 @@ export const projects = [
   {
     id: '4',
     name: 'Aurora Synth',
-    description: 'A design-driven browser synthesizer built in a 5 day sprint using Vanilla JavaScript, HTML, and CSS. The user has the ability to play the synthesizer solo or with a pre-recorded beat, as well as choose between the different waveforms: sine, square, triangle, and sawtooth. Developed with a team of 3 other engineers.',
+    description: 'A design-driven browser synthesizer built in a 5 day sprint using Vanilla JavaScript, HTML, and CSS. The user has the ability to play the synthesizer solo or with a pre-recorded beat, as well as choose between the different waveforms: sine, square, triangle, and sawtooth. Developed remotely with a team of 3 other engineers.',
     myContributions: 'My main contributions were the app design and visualizer, in addition to the AudioContext start/stopSound functions and low-pass filter.',
     deployed: 'https://bryanakitchen.github.io/aurora/', 
     github: 'https://github.com/jena-boehm/aurora',

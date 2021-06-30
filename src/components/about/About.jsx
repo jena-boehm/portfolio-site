@@ -50,10 +50,10 @@ export const About = () => {
           - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
           </div>
         </section>
-        
+
         <section className={styles.bottomBlurb}>
           Other passions and skills:<br/>
-          Electronic music production, audio engineering, DJing & live performing, concert & festival production, transcribing, volunteer coordination, dance, and classical piano.
+          Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
         </section>
 
         <section className={styles.socials}>
