@@ -159,7 +159,88 @@ exports[`App component renders App 1`] = `
       >
         Other passions and skills:
         <br />
-        Electronic music production, audio engineering, DJing & live performing, concert & festival production, transcribing, volunteer coordination, dance, and classical piano.
+        Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
+      </section>
+      <section
+        class="socials"
+      >
+        <div
+          class="socialsContainer"
+        >
+          <div
+            class="icons"
+          >
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="https://www.linkedin.com/in/jenaluxboehm/"
+              >
+                <img
+                  alt="LinkedIn Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="LinkedIn Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="https://github.com/jena-boehm"
+              >
+                <img
+                  alt="GitHub Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="GitHub Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              class="iconContainer"
+            >
+              <a
+                href="mailto:jenaluxboehm@gmail.com"
+              >
+                <img
+                  alt="Email Icon"
+                  class="iconBottom"
+                  src="/path/image"
+                />
+                <div
+                  class="iconTop"
+                >
+                  <img
+                    alt="Email Icon"
+                    class="imgTop"
+                    src="/path/image"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <button>
+            Resume
+          </button>
+        </div>
       </section>
     </section>
   </div>

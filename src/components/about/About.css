@@ -115,5 +115,13 @@
             text-align: center;
             line-height: 1.5em;
         }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+            opacity: 0.8;
+        }
     }
 }

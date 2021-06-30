@@ -25,7 +25,7 @@
          align-items: center;
          flex-direction: row;
          position: fixed;
-         left: 83em;
+         left: 87vw;
          overflow: hidden;
          animation: 1s 1 forwards open-menu;
          width: max-content;
@@ -36,6 +36,16 @@
 
          a { 
             color: white;
+            font-size: 1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            transition: 0.2s;
+         }
+
+         a:hover {
+            color: #B0B6FB;
+            transition: 0.3s;
          }
 
          .brackets {
@@ -88,6 +98,6 @@
  }
 
  @keyframes close-menu {
-   from { left: 60em; }
-   to { left: 200em; display: none;}
+   from { left: 87vw; }
+   to { left: 200vw; display: none;}
  }

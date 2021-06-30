@@ -3,6 +3,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './About.css';
 import headshot from '../../../public/images/headshot.jpg';
+import { Socials } from '../socials/Socials';
 
 export const About = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ export const About = () => {
       <h1 className={location.pathname === '/' ? styles.titleHome : styles.titleLeft}>
             ABOUT
       </h1>
+
       <section className={styles.aboutRight} style={location.pathname === '/' ? { margin: '2em' } : { margin: '2em 2em 2em 10em' } }>
         <section className={styles.rightTop}>
           <div className={styles.crop}>
@@ -48,9 +50,14 @@ export const About = () => {
           - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
           </div>
         </section>
+
         <section className={styles.bottomBlurb}>
           Other passions and skills:<br/>
-          Electronic music production, audio engineering, DJing & live performing, concert & festival production, transcribing, volunteer coordination, dance, and classical piano.
+          Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
+        </section>
+
+        <section className={styles.socials}>
+          <Socials />
         </section>
       </section>
     </div>
