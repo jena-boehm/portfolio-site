@@ -32,51 +32,51 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="contactName"
-          name="contactName"
+          type="contactName7890"
+          name="contactName7890"
           autoComplete="none"
           onChange={e => setName(e.target.value)}/>
-        <label htmlFor="contactName">Name</label>
+        <label htmlFor="contactName7890">Name</label>
       </div>
     
       <div className={styles.formInput}>
         <input
           required
-          type="contactEmail"
-          name="contactEmail"
+          type="contactEmail7890"
+          name="contactEmail7890"
           autoComplete="none"
           onChange={e => setEmail(e.target.value)}/>
-        <label htmlFor="contactEmail">Email</label> 
+        <label htmlFor="contactEmail7890">Email</label> 
       </div>
       
       <div className={styles.formInput}>
         <input
           required
-          type="contactRole"
-          name="contactRole"
+          type="contactRole7890"
+          name="contactRole7890"
           autoComplete="none"
           onChange={e => setRole(e.target.value)}/>  
-        <label htmlFor="contactRole">Role</label> 
+        <label htmlFor="contactRole7890">Role</label> 
       </div>
 
       <div className={styles.formInput}>
         <input
           required
-          type="contactCompany"
-          name="contactCompany"
+          type="contactCompany7890"
+          name="contactCompany7890"
           autoComplete="none"
           onChange={e => setCompany(e.target.value)}/>
-        <label htmlFor="contactCompany">Company</label> 
+        <label htmlFor="contactCompany7890">Company</label> 
       </div>
 
       <div className={styles.formInput}>
         <input
           required
-          type="contactMessage"
-          name="contactMessage"
+          type="contactMessage7890"
+          name="contactMessage7890"
           autoComplete="on"
           onChange={e => setMessage(e.target.value)}/>
-        <label htmlFor="contactMessage">Message</label> 
+        <label htmlFor="contactMessage7890">Message</label> 
       </div>
 
       <button type="submit">Send</button>
