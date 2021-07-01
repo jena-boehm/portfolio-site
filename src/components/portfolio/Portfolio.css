@@ -77,3 +77,14 @@
         }
     }
 }
+
+@media (min-width: 1500px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            left: -13vw;
+            font-size: 7em;
+        }
+    }
+
+}
