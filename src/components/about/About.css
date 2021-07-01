@@ -30,8 +30,8 @@ html {
         height: max-content;
         opacity: 0.3;
         position: fixed;
-        left: -1.2em;
-        top: 2.7em;
+        left: -11vw;
+        top: 44vh;
         z-index: -1;
         font-weight: 300;
         color: #B0B6FB;
@@ -200,6 +200,11 @@ html {
 
 @media (min-width: 1500px) {
     .aboutContainer {
+
+        .titleLeft {
+            left: -11vw;
+            font-size: 10em;
+        }
 
         .aboutRight {
 
