@@ -48,7 +48,7 @@ export const projects = [
     description: 'The site that you\'re admiring right now! Site design and mockups sketched with Figma, built with React and CSS, and Gmail contact form integration created with React Hooks and a fetch to Zapier. Send me a message on the contact page to let me know what you think! Designed and developed by yours truly.',
     github: 'https://github.com/jena-boehm/portfolio-site',
     technologies: 'JavaScript | React | CSS | Webhooks by Zapier',
-    image: './images/aurora-synth.png'
+    image: './images/portfolio-site.png'
   }
 ];
 

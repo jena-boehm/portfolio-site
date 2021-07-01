@@ -122,7 +122,7 @@ exports[`Portfolio component renders Portfolio 1`] = `
               aria-describedby="popup-5"
               class="projectImage"
               height="200em"
-              src="./images/aurora-synth.png"
+              src="./images/portfolio-site.png"
             />
           </figure>
         </div>
