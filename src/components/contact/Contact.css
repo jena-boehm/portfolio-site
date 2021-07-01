@@ -152,3 +152,33 @@
         }
     }
 }
+
+@media (min-width: 1500px) {
+    .contactContainer {
+
+        .titleLeft {
+            left: -13vw;
+            font-size: 9em;
+        }
+
+        .aboutRight {
+            margin: 4vh 2em 1em 10em;
+
+            .rightMain {
+
+                .form {
+                    padding: 4em 0 3em 0;
+
+                    button {
+                        margin-top: 1em;
+                    }
+                }
+
+            }
+            
+            .socials {
+                margin-top: 2em;
+            }
+        }
+    }
+}

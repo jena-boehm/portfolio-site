@@ -85,6 +85,10 @@
             left: -13vw;
             font-size: 7em;
         }
+
+        .portfolioMain {
+            margin: 7vh 2em 3em 10em;
+        }
     }
 
 }
