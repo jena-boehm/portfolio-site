@@ -27,7 +27,7 @@
             }
         
             .iconBottom {
-                width: 3%;
+                width: 3vw;
                 position: absolute;
             }
             
@@ -88,3 +88,18 @@
         transform: scale(0.9);    
     }
 }
+
+@media (min-width: 1500px) {
+.socialsContainer {
+
+    .icons {
+
+        .iconContainer {
+
+            .iconBottom {
+                width: 2.5vw;
+            }
+        }
+    }
+}
+} 

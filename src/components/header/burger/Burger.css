@@ -2,21 +2,21 @@
     display: inline-block;
     cursor: pointer;
     position: fixed;
-    right: 2vw;
-    top: 1vh;
+    /* right: 2vw;
+    top: 1.5vh; */
     z-index: 9999;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     background: black;
-    margin-right: -2vw;
-    width: 7vw;
+    margin-right: -4vw;
+    margin-bottom: 0.5vh;
+    width: 10vw;
     height: 8vh;
-    padding: 0.5em;
-
+    padding: 0.5em 0 0.5em 1.5em;
     .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 4px;
+        width: 3vw;
+        height: 0.7vh;
         background-color: rgb(255, 255, 255);
-        margin: 9px 0;
+        margin: 0.5em;
         transition: 0.4s;
         opacity: 0.8;
     }
@@ -26,23 +26,24 @@
   display: inline-block;
   cursor: pointer;
   position: fixed;
-  right: 2vw;
-  top: 2.5vh;
+  /* right: 2vw;
+  top: 2.5vh; */
   z-index: 9999;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   background: black;
-  margin-right: -2vw;
-  width: 7vw;
+  margin-right: -4vw;
+  margin-top: 1.2vh;
+  width: 10vw;
   height: 6vh;
-  padding: 0.5em;
+  padding: 0.5em 0 0.5em 1.5em;
 
   .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 4px;
+    width: 3vw;
+    height: 0.7vh;
     background-color: rgb(255, 255, 255);
-    margin: 3px 0;
+    margin: 0.1em;
     transition: 0.4s;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
   .bar1 {
@@ -58,4 +59,25 @@
     -webkit-transform: rotate(45deg) translate(-6px, -6px);
     transform: rotate(45deg) translate(-6px, -6px);
   } 
+}
+
+@media (min-width: 1500px) {
+  .burgerClosed {
+    margin-bottom: -0.5vh;
+    
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -1vh;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: 0;
+    }
+  }
 }
