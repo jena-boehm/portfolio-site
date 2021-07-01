@@ -244,31 +244,97 @@ exports[`App component renders App 1`] = `
               class="techStack"
             >
               <div
-                class="techStackTitle"
+                class="techStackLeft"
               >
-                Tech Stack
-                <br />
-                <br />
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Languages:
+                  </div>
+                  <div>
+                    HTML, CSS, JavaScript
+                  </div>
+                </div>
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Libraries & Frameworks:
+                  </div>
+                  <div>
+                    React, Redux, NodeJS, Twilio, ExpressJS, Superagent, GraphQL
+                  </div>
+                </div>
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Testing:
+                  </div>
+                  <div>
+                    Jest, QUnit, Supertest, Travis CI, GitHub CI
+                  </div>
+                </div>
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Databases:
+                  </div>
+                  <div>
+                    PostgreSQL
+                  </div>
+                </div>
               </div>
-              - Languages: HTML, CSS, JavaScript
-              <br />
-              <br />
-              - Libraries & Frameworks: React, Redux, NodeJS, Twilio, ExpressJS, GraphQL, Superagent
-              <br />
-              <br />
-              - Testing: Jest, QUnit, Supertest, Travis CI, GitHub CI
-              <br />
-              <br />
-              - Databases: PostgreSQL
-              <br />
-              <br />
-              - Tools: VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live
-              <br />
-              <br />
-              - Project Management Tools: Miro, Figma, Trello, Airtable, Asana, Slack
-              <br />
-              <br />
-              - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
+              <div
+                class="techStackRight"
+              >
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Tools:
+                  </div>
+                  <div>
+                    VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live
+                  </div>
+                </div>
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Project Management Tools:
+                  </div>
+                  <div>
+                    Miro, Figma, Trello, Airtable, Asana, Slack
+                  </div>
+                </div>
+                <div
+                  class="stackItem"
+                >
+                  <div
+                    class="stackHeader"
+                  >
+                    Dev Practices:
+                  </div>
+                  <div>
+                    Pair Programming, RESTful APIs, Agile, Test Driven Development
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         </section>

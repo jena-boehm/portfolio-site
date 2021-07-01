@@ -30,7 +30,7 @@
       }
 
     .name {
-        font-size: 2.3em;
+        font-size: 2em;
         text-transform: uppercase;
         letter-spacing: 0.1em;
         margin: 1em 0 1em 0;
@@ -48,12 +48,14 @@
     .description {
         width: 80%;
         text-align: center;
+        font-size: 0.9em;
     }
 
     .contributions {
         width: 80%;
         margin-top: 1em;
         text-align: center;
+        font-size: 0.9em;
     }
 
     .detailsFooter {

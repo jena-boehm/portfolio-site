@@ -43,7 +43,7 @@ export const PortfolioItemDetails = ({
       <img 
         src={image} 
         alt={name} 
-        height="300em"
+        height="250vh"
         className={styles.image} />
       <div className={styles.technologies}>{technologies}</div>
       <div className={styles.description}>{description}</div>
