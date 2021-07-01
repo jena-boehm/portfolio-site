@@ -52,4 +52,4 @@ export const projects = [
   }
 ];
 
-export const resume = 'https://drive.google.com/file/d/1OpC6ciOq67-0HuqRt_nEo0HYYdH3n6Ws/view?usp=sharing';
+export const resume = 'https://drive.google.com/file/d/1h0qJTohCQPidt9QaRMmuRftqdQN-mPRE/view?usp=sharing';
