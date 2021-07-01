@@ -47,6 +47,22 @@
 
             .projectItem {
                 margin: 1em;
+                border: 1px solid rgba(176, 182, 251, 0.2);
+                box-shadow: rgba(176, 182, 251, 0.3) 0px 2px 5px 1px, rgba(176, 182, 251, 0.23) 0px 2px 6px 1px, rgba(0, 0, 0, 0.4) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
+                rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
+            }
+
+            .projectItem:hover {
+                box-shadow: rgba(176, 182, 251, 0.3) 0px 2px 5px 1px, rgba(176, 182, 251, 0.23) 0px 2px 6px 1px, rgba(0, 0, 0, 0.7) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
+                rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+
+            .projectItem:active {
+                transform: scale(1)
             }
 
             .projectName {
@@ -56,28 +72,7 @@
                 text-align: center;
                 color: white;
                 opacity: 0.7;
-            }
-
-            .projectFigure {
-
-                .projectImage {
-                    box-shadow: rgba(0, 0, 0, 0.4) 0px 50px 100px -20px, 
-                    rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
-                    rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                }
-
-                .projectImage:hover {
-                    box-shadow: rgba(0, 0, 0, 0.7) 0px 50px 100px -20px, 
-                    rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
-                    rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
-                    transform: scale(1.05);
-                    cursor: pointer;
-                }
-
-                .projectImage:active {
-                    transform: scale(1)
-                }
+                margin-top: 1em;
             }
         }
     }
