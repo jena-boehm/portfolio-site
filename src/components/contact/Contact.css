@@ -104,6 +104,21 @@
                         color: #B0B6FB;
                         font-size: 12px;
                     }
+
+                    input:autofill {
+                        background: black !important;
+                    }
+
+                    input:-webkit-autofill {
+                        background: black !important;
+                    }
+
+                    input:autofill + label {
+                        top: -20px;
+                        left: 0;
+                        color: #B0B6FB;
+                        font-size: 12px;
+                    }
                 }
 
                 button { 
