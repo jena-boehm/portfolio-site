@@ -57,19 +57,56 @@ export const About = () => {
             <div className={styles.line}></div>
 
             <div className={styles.techStack}>
-              <div className={styles.techStackTitle}>
+              {/* <div className={styles.techStackTitle}>
               Tech Stack<br/><br/>
+              </div> */}
+              <div className={styles.techStackLeft}>
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>Languages:</div>
+                  <div>HTML, CSS, JavaScript</div>
+                </div>
+
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>Libraries & Frameworks:</div>
+                  <div>React, Redux, NodeJS, Twilio, ExpressJS, Superagent, GraphQL</div>
+                </div>
+
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>
+                  Testing:</div>
+                  <div>Jest, QUnit, Supertest, Travis CI, GitHub CI</div>
+                </div>
+                
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>
+                    Databases:</div>
+                  <div>PostgreSQL</div>
+                </div>
               </div>
-          - Languages: HTML, CSS, JavaScript<br/><br/>
-          - Libraries & Frameworks: React, Redux, NodeJS, Twilio, ExpressJS, GraphQL, Superagent<br/><br/>
-          - Testing: Jest, QUnit, Supertest, Travis CI, GitHub CI<br/><br/>
-          - Databases: PostgreSQL<br/><br/>
-          - Tools: VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live<br/><br/>
-          - Project Management Tools: Miro, Figma, Trello, Airtable, Asana, Slack<br/><br/>
-          - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
+
+              <div className={styles.techStackRight}>
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>
+                  Tools:</div>
+                  <div>VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live</div>
+                </div>
+
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>
+                  Project Management Tools:</div>
+                  <div>Miro, Figma, Trello, Airtable, Asana, Slack</div>
+                </div>
+
+                <div className={styles.stackItem}>
+                  <div className={styles.stackHeader}>
+                  Dev Practices:</div>
+                  <div>Pair Programming, RESTful APIs, Agile, Test Driven Development</div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
+        
         <section className={styles.bottomBlurb}>
           Other passions and skills:<br/>
           Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
