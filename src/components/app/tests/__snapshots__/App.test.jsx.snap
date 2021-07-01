@@ -78,7 +78,13 @@ exports[`App component renders App 1`] = `
       class="scroll"
     >
       <div>
-        Scroll
+        <div
+          class="arrowContainer"
+        >
+          <span
+            class="arrow"
+          />
+        </div>
       </div>
     </section>
   </div>
@@ -120,7 +126,7 @@ exports[`App component renders App 1`] = `
             <div
               class="description"
             >
-              Multifaceted, intuitive, and detail-driven Full Stack Software Engineer.
+              Multifaceted, intuitive, and detail-driven Front End Software Engineer.
             </div>
             <section
               class="socials"
@@ -207,7 +213,13 @@ exports[`App component renders App 1`] = `
               class="scroll"
             >
               <div>
-                Scroll
+                <div
+                  class="arrowContainer"
+                >
+                  <span
+                    class="arrow"
+                  />
+                </div>
               </div>
             </section>
           </section>

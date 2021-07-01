@@ -6,10 +6,12 @@ import { Home } from '../home/Home';
 import { Portfolio } from '../portfolio/PortfolioList';
 import { Header } from '../header/Header.jsx';
 import './App.css';
+import ScrollToTop from '../scroll/scrollToTop.js';
 
 export const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Switch>
         <Route 
