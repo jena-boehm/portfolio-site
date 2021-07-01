@@ -22,18 +22,20 @@ exports[`Contact component renders Contact 1`] = `
           Let's chat!
         </section>
         <form
+          autocomplete="none"
           class="form"
         >
           <div
             class="formInput"
           >
             <input
-              name="name"
+              autocomplete="none"
+              name="contactName"
               required=""
-              type="name"
+              type="contactName"
             />
             <label
-              for="name"
+              for="contactName"
             >
               Name
             </label>
@@ -42,12 +44,13 @@ exports[`Contact component renders Contact 1`] = `
             class="formInput"
           >
             <input
-              name="email"
+              autocomplete="none"
+              name="contactEmail"
               required=""
-              type="email"
+              type="contactEmail"
             />
             <label
-              for="email"
+              for="contactEmail"
             >
               Email
             </label>
@@ -56,12 +59,13 @@ exports[`Contact component renders Contact 1`] = `
             class="formInput"
           >
             <input
-              name="role"
+              autocomplete="none"
+              name="contactRole"
               required=""
-              type="role"
+              type="contactRole"
             />
             <label
-              for="role"
+              for="contactRole"
             >
               Role
             </label>
@@ -70,12 +74,13 @@ exports[`Contact component renders Contact 1`] = `
             class="formInput"
           >
             <input
-              name="company"
+              autocomplete="none"
+              name="contactCompany"
               required=""
-              type="company"
+              type="contactCompany"
             />
             <label
-              for="company"
+              for="contactCompany"
             >
               Company
             </label>
@@ -84,12 +89,13 @@ exports[`Contact component renders Contact 1`] = `
             class="formInput"
           >
             <input
-              name="message"
+              autocomplete="on"
+              name="contactMessage"
               required=""
-              type="message"
+              type="contactMessage"
             />
             <label
-              for="message"
+              for="contactMessage"
             >
               Message
             </label>

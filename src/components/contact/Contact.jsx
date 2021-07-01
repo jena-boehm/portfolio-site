@@ -27,51 +27,56 @@ export const Contact = () => {
     <section className={styles.rightTop}>
       Let&apos;s chat!
     </section>  
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form className={styles.form} onSubmit={handleSubmit} autoComplete="none">
 
       <div className={styles.formInput}>
         <input
           required
-          type="name"
-          name="name"
+          type="contactName"
+          name="contactName"
+          autoComplete="none"
           onChange={e => setName(e.target.value)}/>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="contactName">Name</label>
       </div>
     
       <div className={styles.formInput}>
         <input
           required
-          type="email"
-          name="email"
+          type="contactEmail"
+          name="contactEmail"
+          autoComplete="none"
           onChange={e => setEmail(e.target.value)}/>
-        <label htmlFor="email">Email</label> 
+        <label htmlFor="contactEmail">Email</label> 
       </div>
       
       <div className={styles.formInput}>
         <input
           required
-          type="role"
-          name="role"
+          type="contactRole"
+          name="contactRole"
+          autoComplete="none"
           onChange={e => setRole(e.target.value)}/>  
-        <label htmlFor="role">Role</label> 
+        <label htmlFor="contactRole">Role</label> 
       </div>
 
       <div className={styles.formInput}>
         <input
           required
-          type="company"
-          name="company"
+          type="contactCompany"
+          name="contactCompany"
+          autoComplete="none"
           onChange={e => setCompany(e.target.value)}/>
-        <label htmlFor="company">Company</label> 
+        <label htmlFor="contactCompany">Company</label> 
       </div>
 
       <div className={styles.formInput}>
         <input
           required
-          type="message"
-          name="message"
+          type="contactMessage"
+          name="contactMessage"
+          autoComplete="on"
           onChange={e => setMessage(e.target.value)}/>
-        <label htmlFor="message">Message</label> 
+        <label htmlFor="contactMessage">Message</label> 
       </div>
 
       <button type="submit">Send</button>
