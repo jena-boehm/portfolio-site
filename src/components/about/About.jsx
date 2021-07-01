@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import styles from './About.css';
 import headshot from '../../../public/images/headshot.jpg';
 import { Socials } from '../socials/Socials';
+import { ScrollTwo } from '../scroll/ScrollTwo';
 
 export const About = () => {
   const location = useLocation();
@@ -32,7 +33,7 @@ export const About = () => {
             </div>
 
             <div className={styles.description}>
-                Multifaceted, intuitive, and detail-driven Full Stack Software Engineer.
+                Multifaceted, intuitive, and detail-driven Front End Software Engineer.
             </div>
 
             <section className={styles.socials}>
@@ -40,7 +41,9 @@ export const About = () => {
             </section>
 
             <section className={styles.scroll}>
-              <div onClick={handleScroll}>Scroll</div>
+              <div onClick={handleScroll}>
+                <ScrollTwo />
+              </div>
             </section>
           </section>
 
