@@ -25,7 +25,7 @@
          align-items: center;
          flex-direction: row;
          position: fixed;
-         left: 87vw;
+         left: 83vw;
          overflow: hidden;
          animation: 1s 1 forwards open-menu;
          width: max-content;
@@ -61,7 +61,7 @@
          align-items: center;
          flex-direction: row;
          position: fixed;
-         left: 85em;
+         left: 83em;
          overflow: hidden;
          animation: 1s 1 forwards close-menu;
          width: max-content;
@@ -98,6 +98,6 @@
  }
 
  @keyframes close-menu {
-   from { left: 87vw; }
+   from { left: 83vw; }
    to { left: 200vw; display: none;}
  }
