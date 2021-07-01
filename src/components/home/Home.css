@@ -32,6 +32,15 @@
 
     .scrollLocation {
         height: 5vh;
-        margin-bottom: 2em;
+        margin-bottom: 6vh;
+    }
+}
+
+@media (min-width: 1500px) {
+    .homeAbout {
+
+        .scrollLocation {
+            margin-bottom: 6vh;
+        }
     }
 }
