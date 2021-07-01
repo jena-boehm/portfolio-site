@@ -30,12 +30,12 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactName"
+              name="contactName7890"
               required=""
-              type="contactName"
+              type="contactName7890"
             />
             <label
-              for="contactName"
+              for="contactName7890"
             >
               Name
             </label>
@@ -45,12 +45,12 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactEmail"
+              name="contactEmail7890"
               required=""
-              type="contactEmail"
+              type="contactEmail7890"
             />
             <label
-              for="contactEmail"
+              for="contactEmail7890"
             >
               Email
             </label>
@@ -60,12 +60,12 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactRole"
+              name="contactRole7890"
               required=""
-              type="contactRole"
+              type="contactRole7890"
             />
             <label
-              for="contactRole"
+              for="contactRole7890"
             >
               Role
             </label>
@@ -75,12 +75,12 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactCompany"
+              name="contactCompany7890"
               required=""
-              type="contactCompany"
+              type="contactCompany7890"
             />
             <label
-              for="contactCompany"
+              for="contactCompany7890"
             >
               Company
             </label>
@@ -90,12 +90,12 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="on"
-              name="contactMessage"
+              name="contactMessage7890"
               required=""
-              type="contactMessage"
+              type="contactMessage7890"
             />
             <label
-              for="contactMessage"
+              for="contactMessage7890"
             >
               Message
             </label>
