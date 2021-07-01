@@ -87,6 +87,22 @@
    }
 }
 
+@media (min-width: 1200px) {
+   .headerContainer {
+
+      .headerRight {
+
+         .navOpen {
+            left: 86vw;
+         }
+
+         .navClosed {
+            left: 86vw;
+         }
+      }
+   }
+}
+
 @keyframes open-menu {
    0%   { transform: scale(1,1)    translateX(0); }
    10%  { transform: scale(1.1,.9) translateX(0); }

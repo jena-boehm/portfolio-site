@@ -60,3 +60,24 @@
     transform: rotate(45deg) translate(-6px, -6px);
   } 
 }
+
+@media (min-width: 1200px) {
+  .burgerClosed {
+    margin-bottom: -0.5vh;
+    
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -1vh;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: 0;
+    }
+  }
+}
