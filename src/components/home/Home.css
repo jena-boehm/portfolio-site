@@ -14,9 +14,24 @@
     margin: 2.6em 0 2em 0;
     box-shadow: inset 0 0 100px 40px rgb(0, 0, 0);
 
+    .scroll {
+        position: relative;
+        top: 45%;
+        color: white;
+        cursor: pointer;
+    }
+
     /* .homeGraphic {
         margin: 1em;
         box-shadow: 0 0px 8px 0px rgba(255,255,255, 0.2);
         background-blend-mode: multiply;
     } */
+}
+
+.homeAbout {
+
+    .scrollLocation {
+        height: 5vh;
+        margin-bottom: 3em;
+    }
 }

@@ -73,176 +73,202 @@ exports[`App component renders App 1`] = `
   </div>
   <div
     class="homeContainer"
-  />
-  <div
-    class="aboutContainer"
   >
-    <h1
-      class="titleHome"
-    >
-      ABOUT
-    </h1>
     <section
-      class="aboutRight"
-      style="margin: 2em;"
+      class="scroll"
     >
-      <section
-        class="rightTop"
-      >
-        <div
-          class="crop"
-        >
-          <img
-            alt="Jena headshot"
-            class="headshot"
-            height="50%"
-            src="/path/image"
-            width="auto"
-          />
-        </div>
-        <div
-          class="description"
-        >
-          Multifaceted, intuitive, and detail-driven Full Stack Software Engineer.
-        </div>
-      </section>
-      <section
-        class="rightMain"
-      >
-        <div
-          class="bio"
-        >
-          My work is inspired by open communication, authentic expression, and effective organization. Experienced with Full Stack, but front end really feels like home.
-          <br />
-          <br />
-          With a knack for creative problem-solving and an eye for front end design, I thrive in user-focused environments that fuse technology and art together in innovative ways.
-          <br />
-          <br />
-          Tech is the future, and I believe that as a software engineer I am able to directly and positively impact the lives of many people.
-        </div>
-        <div
-          class="line"
-        />
-        <div
-          class="techStack"
-        >
-          <div
-            class="techStackTitle"
-          >
-            Tech Stack
-            <br />
-            <br />
-          </div>
-          - Languages: HTML, CSS, JavaScript
-          <br />
-          <br />
-          - Libraries & Frameworks: React, Redux, NodeJS, Twilio, ExpressJS, GraphQL, Superagent
-          <br />
-          <br />
-          - Testing: Jest, QUnit, Supertest, Travis CI, GitHub CI
-          <br />
-          <br />
-          - Databases: PostgreSQL
-          <br />
-          <br />
-          - Tools: VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live
-          <br />
-          <br />
-          - Project Management Tools: Miro, Figma, Trello, Airtable, Asana, Slack
-          <br />
-          <br />
-          - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
-        </div>
-      </section>
-      <section
-        class="bottomBlurb"
-      >
-        Other passions and skills:
-        <br />
-        Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
-      </section>
-      <section
-        class="socials"
-      >
-        <div
-          class="socialsContainer"
-        >
-          <div
-            class="icons"
-          >
-            <div
-              class="iconContainer"
-            >
-              <a
-                href="https://www.linkedin.com/in/jenaluxboehm/"
-              >
-                <img
-                  alt="LinkedIn Icon"
-                  class="iconBottom"
-                  src="/path/image"
-                />
-                <div
-                  class="iconTop"
-                >
-                  <img
-                    alt="LinkedIn Icon"
-                    class="imgTop"
-                    src="/path/image"
-                  />
-                </div>
-              </a>
-            </div>
-            <div
-              class="iconContainer"
-            >
-              <a
-                href="https://github.com/jena-boehm"
-              >
-                <img
-                  alt="GitHub Icon"
-                  class="iconBottom"
-                  src="/path/image"
-                />
-                <div
-                  class="iconTop"
-                >
-                  <img
-                    alt="GitHub Icon"
-                    class="imgTop"
-                    src="/path/image"
-                  />
-                </div>
-              </a>
-            </div>
-            <div
-              class="iconContainer"
-            >
-              <a
-                href="mailto:jenaluxboehm@gmail.com"
-              >
-                <img
-                  alt="Email Icon"
-                  class="iconBottom"
-                  src="/path/image"
-                />
-                <div
-                  class="iconTop"
-                >
-                  <img
-                    alt="Email Icon"
-                    class="imgTop"
-                    src="/path/image"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-          <button>
-            Resume
-          </button>
-        </div>
-      </section>
+      <div>
+        Scroll
+      </div>
     </section>
+  </div>
+  <div
+    class="homeAbout"
+  >
+    <div
+      class="scrollLocation"
+    />
+    <div
+      class="aboutContainer"
+    >
+      <h1
+        class="titleHome"
+      >
+        ABOUT
+      </h1>
+      <section
+        class="aboutRight"
+        style="margin: 2em;"
+      >
+        <section
+          class="aboutRightSection"
+        >
+          <section
+            class="rightTop"
+          >
+            <div
+              class="crop"
+            >
+              <img
+                alt="Jena headshot"
+                class="headshot"
+                height="50%"
+                src="/path/image"
+                width="auto"
+              />
+            </div>
+            <div
+              class="description"
+            >
+              Multifaceted, intuitive, and detail-driven Full Stack Software Engineer.
+            </div>
+            <section
+              class="socials"
+            >
+              <div
+                class="socialsContainer"
+              >
+                <div
+                  class="icons"
+                >
+                  <div
+                    class="iconContainer"
+                  >
+                    <a
+                      href="https://www.linkedin.com/in/jenaluxboehm/"
+                    >
+                      <img
+                        alt="LinkedIn Icon"
+                        class="iconBottom"
+                        src="/path/image"
+                      />
+                      <div
+                        class="iconTop"
+                      >
+                        <img
+                          alt="LinkedIn Icon"
+                          class="imgTop"
+                          src="/path/image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="iconContainer"
+                  >
+                    <a
+                      href="https://github.com/jena-boehm"
+                    >
+                      <img
+                        alt="GitHub Icon"
+                        class="iconBottom"
+                        src="/path/image"
+                      />
+                      <div
+                        class="iconTop"
+                      >
+                        <img
+                          alt="GitHub Icon"
+                          class="imgTop"
+                          src="/path/image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="iconContainer"
+                  >
+                    <a
+                      href="mailto:jenaluxboehm@gmail.com"
+                    >
+                      <img
+                        alt="Email Icon"
+                        class="iconBottom"
+                        src="/path/image"
+                      />
+                      <div
+                        class="iconTop"
+                      >
+                        <img
+                          alt="Email Icon"
+                          class="imgTop"
+                          src="/path/image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <button>
+                  Resume
+                </button>
+              </div>
+            </section>
+            <section
+              class="scroll"
+            >
+              <div>
+                Scroll
+              </div>
+            </section>
+          </section>
+          <section
+            class="rightMain"
+          >
+            <div
+              class="bio"
+            >
+              My work is inspired by open communication, authentic expression, and effective organization. Experienced with Full Stack, but front end really feels like home.
+              <br />
+              <br />
+              With a knack for creative problem-solving and an eye for front end design, I thrive in user-focused environments that fuse technology and art together in innovative ways.
+              <br />
+              <br />
+              Tech is the future, and I believe that as a software engineer I am able to directly and positively impact the lives of many people.
+            </div>
+            <div
+              class="line"
+            />
+            <div
+              class="techStack"
+            >
+              <div
+                class="techStackTitle"
+              >
+                Tech Stack
+                <br />
+                <br />
+              </div>
+              - Languages: HTML, CSS, JavaScript
+              <br />
+              <br />
+              - Libraries & Frameworks: React, Redux, NodeJS, Twilio, ExpressJS, GraphQL, Superagent
+              <br />
+              <br />
+              - Testing: Jest, QUnit, Supertest, Travis CI, GitHub CI
+              <br />
+              <br />
+              - Databases: PostgreSQL
+              <br />
+              <br />
+              - Tools: VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live
+              <br />
+              <br />
+              - Project Management Tools: Miro, Figma, Trello, Airtable, Asana, Slack
+              <br />
+              <br />
+              - Dev Practices: Pair Programming, RESTful APIs, Agile, Test Driven Development
+            </div>
+          </section>
+        </section>
+        <section
+          class="bottomBlurb"
+        >
+          Other passions and skills:
+          <br />
+          Electronic music production, audio engineering, DJing & live performing, event production, transcribing, volunteer coordination, dance, and classical piano.
+        </section>
+      </section>
+    </div>
   </div>
 </DocumentFragment>
 `;
