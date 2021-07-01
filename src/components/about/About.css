@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .aboutContainer {
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@
         margin: 0;
         padding: 0;
         height: max-content;
-        opacity: 0.2;
+        opacity: 0.3;
         position: fixed;
         left: -1.2em;
         top: 2.7em;
@@ -40,80 +44,98 @@
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 90%;
+        width: 80%;
         padding: 0;
 
-        .rightTop {
-            width: 100%;
+        .aboutRightSection {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
 
-            .crop {
-                width: 10em;
-                height: 10em;
-                position: relative;
-                overflow: hidden;
-                border-radius: 50%;
-            
-                .headshot {
-                    display: inline-block;
-                    margin-left: -37%;
-                    height: 110%;
-                    width: auto;
+
+            .rightTop {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                    
+                    .crop {
+                        width: max-content;
+                        height: 25em;
+                        position: relative;
+                        overflow: hidden;
+                        /* border-radius: 50%; */
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 50px 100px -20px, 
+                        rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
+                        rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
+                        
+                        .headshot {
+                            display: inline-block;
+                            /* margin-left: -37%; */
+                            margin-top: -3%;
+                            height: 140%;
+                            width: auto;
+                            opacity: 0.9;
+                        }
+                    }
+
+                .description {
+                    font-size: 1.3em;
+                    margin-top: 2em;
                 }
             }
 
-            .description {
-                font-size: 1.1em;
-                margin-top: 2em;
-            }
-        }
+            .rightMain {
+                width: 100%;
+                height: 60vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin: 2em 0 2em 0;
+                border: 1px solid rgba(176, 182, 251, 0.2);
+                box-shadow: rgba(176, 182, 251, 0.3) 0px 2px 5px 1px, rgba(176, 182, 251, 0.23) 0px 2px 6px 1px, rgba(0, 0, 0, 0.4) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
+                rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
 
-        .rightMain {
-            width: 100%;
-            height: 60vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            margin: 2em 0 2em 0;
+                .bio {
+                    width: 45%;
+                    line-height: 2em;
+                    text-align: justify;
+                    padding: 0 1em 0 1em;
+                }
 
-            .bio {
-                width: 40%;
-                line-height: 2em;
-                text-align: justify;
-                padding: 0 1em 0 1em;
-            }
+                .line {
+                    height: 90%;
+                    width: 5%;
+                    background-image: url('../../../public/images/vertical-line.png');
+                    background-repeat: repeat-y;
+                    background-position: center;
+                    background-size: 10%;
+                    opacity: 0.5;
+                }
 
-            .line {
-                height: 90%;
-                width: 5%;
-                background-image: url('../../../public/images/vertical-line.png');
-                background-repeat: repeat-y;
-                background-position: center;
-                background-size: 10%;
-                opacity: 0.5;
-            }
+                .techStack {
+                    width: 45%;
+                    line-height: 1.3em;
+                    text-align: justify;
+                    padding: 0 1em 0 1em;
 
-            .techStack {
-                width: 40%;
-                line-height: 1.3em;
-                text-align: justify;
-                padding: 0 1em 0 1em;
-
-                .techStackTitle {
-                    text-align: center;
-                    text-decoration: underline;
+                    .techStackTitle {
+                        text-align: center;
+                        text-decoration: underline;
+                    }
                 }
             }
-        }
-
+    }
         .bottomBlurb {
             width: 70%;
             text-align: center;
             line-height: 1.5em;
+            margin-top: 3em;
+            
         }
 
         .socials {
@@ -122,6 +144,11 @@
             align-items: center;
             margin-top: 2em;
             opacity: 0.8;
+        }
+
+        .scroll {
+            cursor: pointer;
+            margin-bottom: 3em;
         }
     }
 }
