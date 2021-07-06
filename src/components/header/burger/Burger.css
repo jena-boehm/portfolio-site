@@ -12,6 +12,7 @@
     width: 10vw;
     height: 8vh;
     padding: 0.5em 0 0.5em 1.5em;
+
     .bar1, .bar2, .bar3 {
         width: 3vw;
         height: 0.7vh;
@@ -61,7 +62,28 @@
   } 
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1801px) {
+  .burgerClosed {
+    margin-bottom: -2vh;
+    
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -2vh;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: -0.1em;
+    }
+  }
+}
+
+ @media (max-width: 1800px) {
   .burgerClosed {
     margin-bottom: -0.5vh;
     
@@ -81,3 +103,129 @@
     }
   }
 }
+
+ @media (max-width: 1300px) {
+  .burgerClosed {
+    margin-bottom: -0.1vh;
+    margin-left: 2em;
+    width: 11vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 3.5vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -0.5vh;
+    margin-left: 2em;
+    width: 11vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 3.5vw;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .burgerClosed {
+    margin-bottom: -2vh;
+    margin-right: -8vw;
+    width: 15vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.7vh;
+      width: 5vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -2vh;
+    margin-right: -8vw;
+    width: 15vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.7vh;
+      width: 5vw;
+      margin: -0.1em;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .burgerClosed {
+    margin-bottom: -0.1vh;
+    margin-right: -15vw;
+    width: 20vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.7vh;
+      width: 6vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -0.5vh;
+    margin-right: -15vw;
+    width: 20vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.7vh;
+      width: 6vw;
+      margin: 0.1em;
+    }
+  }
+} 
+
+@media (max-width: 500px) {
+  .burgerClosed {
+    margin-bottom: 0.5vh;
+    margin-right: -35vw;
+    width: 40vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.6vh;
+      width: 9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -0.5vh;
+    margin-right: -35vw;
+    width: 40vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.6vh;
+      width: 9vw;
+      margin: 0.2em;
+    }
+  }
+}  
+
+@media (max-width: 400px) {
+  .burgerClosed {
+    margin-bottom: 1vh;
+    margin-left: 10vw;
+    width: 40vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.6vh;
+      width: 9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: 1vh;
+    margin-left: 10vw;
+    width: 40vw;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.6vh;
+      width: 9vw;
+      margin: 0.2em;
+    }
+  }
+}  
+

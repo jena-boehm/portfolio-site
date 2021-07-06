@@ -1,3 +1,18 @@
+@keyframes open-menu {
+   0%   { transform: scale(1,1)    translateX(0); }
+   10%  { transform: scale(1.1,.9) translateX(0); }
+   30%  { transform: scale(.9,1.1) translateX(-25em); }
+   50%  { transform: scale(1,1)    translateX(-26em); }
+   57%  { transform: scale(1,1)    translateX(-26em); }
+   64%  { transform: scale(1,1)    translateX(-26em); }
+   100% { transform: scale(1,1)    translateX(-25em); }
+ }
+
+ @keyframes close-menu {
+   from { left: 83vw; }
+   to { left: 200vw; display: none;}
+ }
+
 .headerContainer {
     display: flex;
     justify-content: space-between;
@@ -6,7 +21,7 @@
     overflow: hidden;
     top: 0;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     padding: 2em;
     background-color: black;
     z-index: 1;
@@ -103,17 +118,75 @@
    }
 }
 
-@keyframes open-menu {
-   0%   { transform: scale(1,1)    translateX(0); }
-   10%  { transform: scale(1.1,.9) translateX(0); }
-   30%  { transform: scale(.9,1.1) translateX(-25em); }
-   50%  { transform: scale(1,1)    translateX(-26em); }
-   57%  { transform: scale(1,1)    translateX(-26em); }
-   64%  { transform: scale(1,1)    translateX(-26em); }
-   100% { transform: scale(1,1)    translateX(-25em); }
- }
+@media (min-width: 1300px) {
+   .headerContainer {
 
- @keyframes close-menu {
-   from { left: 83vw; }
-   to { left: 200vw; display: none;}
- }
+      .headerRight {
+
+         .navOpen {
+            left: 81vw;
+         }
+
+         .navClosed {
+            left: 81vw;
+         }
+      }
+   }
+}
+
+@media (min-width: 1027px) {
+   .headerContainer {
+
+      .headerRight {
+
+         .navOpen {
+            left: 77vw;
+         }
+
+         .navClosed {
+            left: 77vw;
+         }
+      }
+   }
+}
+
+@media (min-width: 900px) {
+   .headerContainer {
+
+      .headerRight {
+
+         .navOpen {
+            left: 85vw;
+
+            a { 
+               font-size: 0.8em;
+            }
+         }
+
+         .navClosed {
+            left: 85vw;
+         }
+      }
+   }
+}
+
+@media (min-width: 700px) {
+   .headerContainer {
+
+      .headerRight {
+
+         .navOpen {
+            left: 85vw;
+
+            a { 
+               font-size: 0.7em;
+            }
+         }
+
+         .navClosed {
+            left: 85vw;
+         }
+      }
+   }
+}
+
