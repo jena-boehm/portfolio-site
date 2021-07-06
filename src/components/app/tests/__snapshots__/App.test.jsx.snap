@@ -114,15 +114,7 @@ exports[`App component renders App 1`] = `
           >
             <div
               class="crop"
-            >
-              <img
-                alt="Jena headshot"
-                class="headshot"
-                height="50%"
-                src="/path/image"
-                width="auto"
-              />
-            </div>
+            />
             <div
               class="description"
             >

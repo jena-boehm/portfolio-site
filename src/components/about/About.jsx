@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './About.css';
-import headshot from '../../../public/images/headshot.jpg';
+// import headshot from '../../../public/images/headshot.jpg';
 import { Socials } from '../socials/Socials';
 import { ScrollTwo } from '../scroll/ScrollTwo';
 
@@ -24,12 +24,12 @@ export const About = () => {
         <section className={styles.aboutRightSection}>
           <section className={styles.rightTop}>
             <div className={styles.crop}>
-              <img
+              {/* <img
                 className={styles.headshot} 
                 src={headshot}
                 alt="Jena headshot"
                 height="50%"
-                width="auto"/>
+                width="auto"/> */}
             </div>
 
             <div className={styles.description}>
