@@ -98,7 +98,7 @@ exports[`App component renders App 1`] = `
       class="aboutContainer"
     >
       <h1
-        class="titleHome"
+        class="titleLeft"
       >
         ABOUT
       </h1>

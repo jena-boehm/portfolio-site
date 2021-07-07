@@ -13,14 +13,6 @@ html {
     font-family: 'Montserrat', sans-serif;
     color: white;
 
-    .titleHome {
-        font-size: 3.5em;
-        letter-spacing: 0.1em;
-        opacity: 0.4;
-        margin-bottom: 0;
-        display: none;
-    }
-
     .titleLeft {
         transform: rotate(270deg);
         font-size: 8em;

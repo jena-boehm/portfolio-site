@@ -26,7 +26,7 @@ export const About = () => {
 
   return (
     <div className={styles.aboutContainer}>
-      <h1 className={location.pathname === '/' ? styles.titleHome : styles.titleLeft}>
+      <h1 className={styles.titleLeft}>
             ABOUT
       </h1>
 

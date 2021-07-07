@@ -90,5 +90,132 @@
             margin: 7vh 2em 3em 10em;
         }
     }
+}
 
+@media (max-width: 1100px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .portfolioMain {
+            margin: 5vh 2em 2em 2em;
+
+            .titleTop {
+                font-size: 5em;
+                letter-spacing: 0.1em;
+                margin: 0 0 0.5em 0;
+                padding: 0;
+                height: max-content;
+                opacity: 0.3;
+                z-index: -1;
+                font-weight: 300;
+                color: #B0B6FB;
+                text-shadow: 6px 6px 1px black;
+            }
+
+            .portfolioGrid {
+
+                .projectItem {
+                    margin: 2em;
+
+                    .projectName {
+                        font-size: 2em;
+                    }
+
+                    .projectFigure {
+
+                        .projectImage {
+                            height: 30vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolioContainer {
+
+        .portfolioMain {
+
+            .titleTop {
+                font-size: 3em;
+                margin: 0;
+            }
+
+            .portfolioGrid {
+
+                .projectItem {
+                    margin: 1em;
+
+                    .projectName {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolioContainer {
+
+        .portfolioMain {
+
+            .titleTop {
+                font-size: 2.5em;
+                margin: 0;
+            }
+
+            .portfolioGrid {
+
+                .projectItem {
+                    margin: 1em;
+
+                    .projectName {
+                        font-size: 1em;
+                    }
+
+                    .projectFigure {
+
+                        .projectImage {
+                            height: 20vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .portfolioContainer {
+
+        .portfolioMain {
+
+            .titleTop {
+                font-size: 2.2em;
+            }
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 0.9em;
+                    }
+
+                    .projectFigure {
+
+                        .projectImage {
+                            height: 16vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
