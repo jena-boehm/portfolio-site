@@ -123,3 +123,23 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .socialsContainer {
+
+        .icons {
+
+            .iconContainer {
+                width: 25%;
+
+                .iconBottom {
+                    width: 8vw;
+                }
+            }
+        }
+
+        button {
+            font-size: 1.7em;
+        }
+    }
+}
