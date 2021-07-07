@@ -38,7 +38,7 @@ html {
         text-shadow: 6px 6px 1px black;
     }
 
-    .aboutRight {
+    .aboutRight  {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -131,11 +131,6 @@ html {
                     text-align: center;
                     padding: 0 0 1.1em 0;
 
-                    .techStackTitle {
-                        text-align: center;
-                        text-decoration: underline;
-                    }
-
                     .techStackLeft {
                         display: flex;
                         justify-content: center;
@@ -175,7 +170,8 @@ html {
                     }
                 }
             }
-    }
+        }
+
         .bottomBlurb {
             width: 70%;
             text-align: center;
@@ -197,7 +193,7 @@ html {
             margin-bottom: 3em;
             position: relative;
             top: 45%;
-            margin: 2vh 0 4vh 0;
+            margin: 2vh 0 6vh 0;
             cursor: pointer;
         }
     }
@@ -223,3 +219,94 @@ html {
         }
     }
 } 
+
+@media (max-width: 1100px) {
+    .aboutContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 6em;
+                        letter-spacing: 0.1em;
+                        margin: 0 0 0.5em 0;
+                        padding: 0;
+                        height: max-content;
+                        opacity: 0.3;
+                        z-index: -1;
+                        font-weight: 300;
+                        color: #B0B6FB;
+                        text-shadow: 6px 6px 1px black;
+                    }
+
+                    .crop {
+                        width: 90vw;
+                    }
+
+                    .description {
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+
+                    .socials {
+                        margin: 3vh 0 2vh 0;
+                    }
+                }
+
+                .rightMain {
+                    flex-direction: column;
+                    height: 70vh;
+
+                    .bio {
+                        width: 90%;
+                        font-size: 1.1em;
+                        text-align: center;
+                    }
+
+                    .line {
+                        background-image: url('../../../public/images/horizontal-line.png');
+                        background-repeat: repeat-x;
+                        background-size: 2%;
+                        width: 60%;
+                        height: 12%;
+                    }
+
+                    .techStack {
+                        width: 90%;
+
+                        .techStackLeft {
+                            font-size: 1.2em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 1.2em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 1.2em;
+                width: 100%;
+                margin: 2em 0 1em 0;
+            }
+        }
+
+    }
+}
