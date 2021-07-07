@@ -90,16 +90,36 @@
 }
 
 @media (min-width: 1500px) {
-.socialsContainer {
+    .socialsContainer {
 
-    .icons {
+        .icons {
 
-        .iconContainer {
+            .iconContainer {
 
-            .iconBottom {
-                width: 2.5vw;
+                .iconBottom {
+                    width: 2.5vw;
+                }
             }
         }
     }
-}
 } 
+
+@media (max-width: 1100px) {
+    .socialsContainer {
+
+        .icons {
+
+            .iconContainer {
+                width: 25%;
+
+                .iconBottom {
+                    width: 6vw;
+                }
+            }
+        }
+
+        button {
+            font-size: 1.5em;
+        }
+    }
+}

@@ -235,7 +235,7 @@ html {
                 .rightTop {
 
                     .titleTop {
-                        font-size: 6em;
+                        font-size: 5em;
                         letter-spacing: 0.1em;
                         margin: 0 0 0.5em 0;
                         padding: 0;
@@ -305,6 +305,10 @@ html {
                 font-size: 1.2em;
                 width: 100%;
                 margin: 2em 0 1em 0;
+            }
+
+            .scroll {
+                margin: 1vh 0 6vh 0;
             }
         }
 
