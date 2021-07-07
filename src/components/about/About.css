@@ -214,7 +214,7 @@ html {
             }
 
             .scroll {
-                margin: 4vh 0 6vh 0;
+                margin: 4vh 0 10vh 0;
             }
         }
     }
@@ -382,6 +382,217 @@ html {
 
             .scroll {
                 margin: 3vh 0 6vh 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 2.5em;
+                    }
+
+                    .crop {
+                        height: 40vh;
+                    }
+
+                    .description {
+                        font-size: 1em;
+                        width: 80%;
+                    }
+                }
+
+                .rightMain {
+                    padding: 2em 0 1em 0;
+                    
+                    .bio {
+                        width: 95%;
+                        font-size: 0.6em;
+                        margin-bottom: 2em;
+                    }
+
+                    .techStack {
+                        width: 95%;
+
+                        .techStackLeft {
+                            font-size: 0.6em;
+                            line-height: 1.5em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.6em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.6em;
+                margin: 0.5em 0 0 0;
+            }
+
+            .scroll {
+                margin: 3vh 0 8vh 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutContainer {
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .crop {
+                        height: 35vh;
+                    }
+
+                    .description {
+                        font-size: 1em;
+                        width: 80%;
+                    }
+                }
+
+                .rightMain {
+                    height: 70vh;
+                    
+                    .bio {
+                        font-size: 0.6em;
+                        line-height: 1.6em;
+                    }
+
+                    .line {
+                        height: 8%;
+                    }
+
+                    .techStack {
+                        width: 95%;
+
+                        .techStackLeft {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.6em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.5em;
+                            line-height: 1.8em;
+
+                            .stackHeader {
+                                font-size: 0.4em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.6em;
+                margin: 0.5em 0 0 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 350px) {
+    .aboutContainer {
+        margin-top: 0;
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 2em;
+                    }
+
+                    .crop {
+                        height: 35vh;
+                    }
+
+                    .description {
+                        font-size: 0.8em;
+                        margin-top: 1.5em;
+                    }
+                }
+
+                .rightMain {
+                    height: 70vh;
+                    padding: 1em 0 0 0;
+                    
+                    .bio {
+                        font-size: 0.4em;
+                        margin-bottom: 1em;
+                        line-height: 2em;
+                    }
+
+                    .line {
+                        height: 8%;
+                    }
+
+                    .techStack {
+                        width: 95%;
+                        margin-bottom: 0;
+
+                        .techStackLeft {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.2em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.2em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.4em;
+                line-height: 1.8em;
+                margin: -1em;
             }
         }
     }

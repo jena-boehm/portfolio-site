@@ -143,3 +143,65 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .socialsContainer {
+
+        .icons {
+
+            .iconContainer {
+                width: 18%;
+                margin-top: 1em;
+
+                .iconBottom {
+                    width: 10vw;
+                }
+            }
+        }
+
+        button {
+            font-size: 1em;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .socialsContainer {
+
+        .icons {
+
+            .iconContainer {
+                width: 14%;
+
+                .iconBottom {
+                    width: 10vw;
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .socialsContainer {
+
+        .icons {
+
+            .iconContainer {
+                width: 11%;
+
+                .iconBottom {
+                    width: 9vw;
+                }
+
+            }
+        }
+
+        button {
+            font-size: 0.9em;
+        }
+    }
+}
+
+
+

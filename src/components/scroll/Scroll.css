@@ -1,3 +1,9 @@
+@-webkit-keyframes arrows {
+    0% { top: 30%; }
+    50% { top: -30%; }
+    100% { top: 30%; }
+  }
+
 .arrowContainer {
     position:absolute;
     z-index: 0;
@@ -44,10 +50,3 @@
         opacity: 1;
     }
 }
-
-
-@-webkit-keyframes arrows {
-    0% { top: 30%; }
-    50% { top: -30%; }
-    100% { top: 30%; }
-  }
