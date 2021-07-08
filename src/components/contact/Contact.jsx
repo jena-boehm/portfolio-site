@@ -9,7 +9,7 @@ export const Contact = () => {
   const [role, setRole] = useState('');
   const [company, setCompany] = useState('');
   const [message, setMessage] = useState('');
-  const [isSent, setIsSent] = useState(true);
+  const [isSent, setIsSent] = useState(false);
   const [isMobile, setMobile] = useState(window.innerWidth < 1100);
 
   const handleMobile = () => {

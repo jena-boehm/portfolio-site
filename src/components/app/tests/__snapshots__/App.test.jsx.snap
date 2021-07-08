@@ -99,6 +99,7 @@ exports[`App component renders App 1`] = `
     >
       <h1
         class="titleLeft"
+        style="display: none;"
       >
         ABOUT
       </h1>

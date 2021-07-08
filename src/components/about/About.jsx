@@ -26,7 +26,11 @@ export const About = () => {
 
   return (
     <div className={styles.aboutContainer}>
-      <h1 className={styles.titleLeft}>
+      <h1 className={styles.titleLeft} style={location.pathname === '/' 
+        ? { display: 'none' }
+        : isMobile 
+          ? { display: 'none' }
+          : { display: 'flex' }}>
             ABOUT
       </h1>
 
@@ -35,7 +39,7 @@ export const About = () => {
           ? { margin: '2em' } 
           : location.pathname === '/' 
             ? { margin: '2em' } 
-            : { margin: '2em 2em 2em 10em' } }>
+            : { margin: '2em 2em 2em 13em' } }>
         <section className={styles.aboutRightSection}>
           <section className={styles.rightTop}>
             {location.pathname === '/about' && isMobile && <div className={styles.titleTop}>ABOUT</div>}
