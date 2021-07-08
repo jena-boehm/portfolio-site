@@ -13,6 +13,11 @@ exports[`Portfolio component renders Portfolio 1`] = `
     <section
       class="portfolioMain"
     >
+      <div
+        class="titleTop"
+      >
+        PORTFOLIO
+      </div>
       <section
         class="portfolioGrid"
       >

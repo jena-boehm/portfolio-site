@@ -98,7 +98,8 @@ exports[`App component renders App 1`] = `
       class="aboutContainer"
     >
       <h1
-        class="titleHome"
+        class="titleLeft"
+        style="display: none;"
       >
         ABOUT
       </h1>
@@ -114,15 +115,7 @@ exports[`App component renders App 1`] = `
           >
             <div
               class="crop"
-            >
-              <img
-                alt="Jena headshot"
-                class="headshot"
-                height="50%"
-                src="/path/image"
-                width="auto"
-              />
-            </div>
+            />
             <div
               class="description"
             >

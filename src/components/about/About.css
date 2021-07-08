@@ -13,14 +13,6 @@ html {
     font-family: 'Montserrat', sans-serif;
     color: white;
 
-    .titleHome {
-        font-size: 3.5em;
-        letter-spacing: 0.1em;
-        opacity: 0.4;
-        margin-bottom: 0;
-        display: none;
-    }
-
     .titleLeft {
         transform: rotate(270deg);
         font-size: 8em;
@@ -38,7 +30,7 @@ html {
         text-shadow: 6px 6px 1px black;
     }
 
-    .aboutRight {
+    .aboutRight  {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -63,21 +55,26 @@ html {
                     .crop {
                         width: max-content;
                         height: 50vh;
+                        width: 60vw;
                         position: relative;
                         overflow: hidden;
+                        background-image: url('../../../public/images/headshot.jpg');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: top;
                         /* border-radius: 50%; */
                         box-shadow: rgba(0, 0, 0, 0.4) 0px 50px 100px -20px, 
                         rgba(0, 0, 0, 0.7) 0px 30px 60px -30px, 
                         rgba(0, 0, 0, 0.7) 0px -2px 6px 0px inset;
+
                         
-                        .headshot {
+                        /* .headshot {
                             display: inline-block;
-                            /* margin-left: -37%; */
                             margin-top: -3%;
-                            height: 140%;
+                            height: 130%;
                             width: auto;
                             opacity: 0.9;
-                        }
+                        } */
                     }
 
                 .description {
@@ -126,11 +123,6 @@ html {
                     text-align: center;
                     padding: 0 0 1.1em 0;
 
-                    .techStackTitle {
-                        text-align: center;
-                        text-decoration: underline;
-                    }
-
                     .techStackLeft {
                         display: flex;
                         justify-content: center;
@@ -170,7 +162,8 @@ html {
                     }
                 }
             }
-    }
+        }
+
         .bottomBlurb {
             width: 70%;
             text-align: center;
@@ -192,7 +185,7 @@ html {
             margin-bottom: 3em;
             position: relative;
             top: 45%;
-            margin: 2vh 0 4vh 0;
+            margin: 2vh 0 6vh 0;
             cursor: pointer;
         }
     }
@@ -213,8 +206,386 @@ html {
             }
 
             .scroll {
-                margin: 4vh 0 6vh 0;
+                margin: 4vh 0 10vh 0;
             }
         }
     }
 } 
+
+@media (max-width: 1100px) {
+    .aboutContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 5em;
+                        letter-spacing: 0.1em;
+                        margin: 0 0 0.5em 0;
+                        padding: 0;
+                        height: max-content;
+                        opacity: 0.3;
+                        z-index: -1;
+                        font-weight: 300;
+                        color: #B0B6FB;
+                        text-shadow: 6px 6px 1px black;
+                    }
+
+                    .crop {
+                        width: 90vw;
+                    }
+
+                    .description {
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+
+                    .socials {
+                        margin: 3vh 0 2vh 0;
+                    }
+                }
+
+                .rightMain {
+                    flex-direction: column;
+                    height: 70vh;
+
+                    .bio {
+                        width: 90%;
+                        font-size: 1.1em;
+                        text-align: center;
+                    }
+
+                    .line {
+                        background-image: url('../../../public/images/horizontal-line.png');
+                        background-repeat: repeat-x;
+                        background-size: 2%;
+                        width: 60%;
+                        height: 12%;
+                    }
+
+                    .techStack {
+                        width: 90%;
+
+                        .techStackLeft {
+                            font-size: 1.2em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 1.2em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 1.2em;
+                width: 100%;
+                margin: 2em 0 1em 0;
+            }
+
+            .scroll {
+                margin: 1vh 0 6vh 0;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 3em;
+                    }
+
+                    .crop {
+                        height: 40vh;
+                    }
+                }
+
+                .rightMain {
+                    padding: 2em 0 1em 0;
+                    
+                    .bio {
+                        width: 95%;
+                        font-size: 0.9em;
+                        margin-bottom: 1em;
+                    }
+
+                    .line {
+                        height: 8%;
+                    }
+
+                    .techStack {
+                        width: 95%;
+
+                        .techStackLeft {
+                            font-size: 1em;
+                            line-height: 1.5em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 1em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.9em;
+                margin-top: 1em;
+            }
+
+            .scroll {
+                margin: 3vh 0 6vh 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutContainer {
+
+        .titleLeft {
+            display: none;
+        }
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 2.5em;
+                    }
+
+                    .crop {
+                        height: 40vh;
+                    }
+
+                    .description {
+                        font-size: 1em;
+                        width: 80%;
+                    }
+                }
+
+                .rightMain {
+                    padding: 2em 0 1em 0;
+                    
+                    .bio {
+                        width: 95%;
+                        font-size: 0.6em;
+                        margin-bottom: 2em;
+                    }
+
+                    .techStack {
+                        width: 95%;
+
+                        .techStackLeft {
+                            font-size: 0.6em;
+                            line-height: 1.5em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.6em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.6em;
+                margin: 0.5em 0 0 0;
+            }
+
+            .scroll {
+                margin: 3vh 0 8vh 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutContainer {
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .crop {
+                        height: 35vh;
+                    }
+
+                    .description {
+                        font-size: 1em;
+                        width: 80%;
+                    }
+                }
+
+                .rightMain {
+                    height: 70vh;
+                    
+                    .bio {
+                        font-size: 0.6em;
+                        line-height: 1.6em;
+                    }
+
+                    .line {
+                        height: 8%;
+                    }
+
+                    .techStack {
+                        width: 95%;
+
+                        .techStackLeft {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.6em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.5em;
+                            line-height: 1.8em;
+
+                            .stackHeader {
+                                font-size: 0.4em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.6em;
+                margin: 0.5em 0 0 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 350px) {
+    .aboutContainer {
+        margin-top: 0;
+
+        .aboutRight {
+            margin: 2em;
+
+            .aboutRightSection {
+                
+                .rightTop {
+
+                    .titleTop {
+                        font-size: 2em;
+                    }
+
+                    .crop {
+                        height: 35vh;
+                    }
+
+                    .description {
+                        font-size: 0.8em;
+                        margin-top: 1.5em;
+                    }
+                }
+
+                .rightMain {
+                    height: 70vh;
+                    padding: 1em 0 0 0;
+                    
+                    .bio {
+                        font-size: 0.4em;
+                        margin-bottom: 1em;
+                        line-height: 2em;
+                    }
+
+                    .line {
+                        height: 8%;
+                    }
+
+                    .techStack {
+                        width: 95%;
+                        margin-bottom: 0;
+
+                        .techStackLeft {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.2em;
+                            }
+                        }
+
+                        .techStackRight {
+                            font-size: 0.5em;
+                            line-height: 1.7em;
+
+                            .stackHeader {
+                                font-size: 0.2em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                font-size: 0.4em;
+                line-height: 1.8em;
+                margin: -1em;
+            }
+        }
+    }
+}

@@ -1,35 +1,55 @@
 /* eslint-disable max-len */
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './About.css';
-import headshot from '../../../public/images/headshot.jpg';
+// import headshot from '../../../public/images/headshot.jpg';
 import { Socials } from '../socials/Socials';
 import { ScrollTwo } from '../scroll/ScrollTwo';
 
 export const About = () => {
   const location = useLocation();
   const ref = useRef(null);
+  const [isMobile, setMobile] = useState(window.innerWidth < 1100);
 
   const handleScroll = () => {
     ref.current.scrollIntoView();
   };
 
+  const handleMobile = () => {
+    setMobile(window.innerWidth < 1100);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleMobile);
+    return () => window.removeEventListener('resize', handleMobile);
+  });
+
   return (
     <div className={styles.aboutContainer}>
-      <h1 className={location.pathname === '/' ? styles.titleHome : styles.titleLeft}>
+      <h1 className={styles.titleLeft} style={location.pathname === '/' 
+        ? { display: 'none' }
+        : isMobile 
+          ? { display: 'none' }
+          : { display: 'flex' }}>
             ABOUT
       </h1>
 
-      <section className={styles.aboutRight} style={location.pathname === '/' ? { margin: '2em' } : { margin: '2em 2em 2em 10em' } }>
+      <section className={styles.aboutRight} 
+        style={location.pathname === '/about' && isMobile 
+          ? { margin: '2em' } 
+          : location.pathname === '/' 
+            ? { margin: '2em' } 
+            : { margin: '2em 2em 2em 13em' } }>
         <section className={styles.aboutRightSection}>
           <section className={styles.rightTop}>
+            {location.pathname === '/about' && isMobile && <div className={styles.titleTop}>ABOUT</div>}
             <div className={styles.crop}>
-              <img
+              {/* <img
                 className={styles.headshot} 
                 src={headshot}
                 alt="Jena headshot"
                 height="50%"
-                width="auto"/>
+                width="auto"/> */}
             </div>
 
             <div className={styles.description}>

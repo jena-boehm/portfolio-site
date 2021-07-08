@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.css';
 // import './Header.css';
@@ -10,6 +10,16 @@ import { Burger } from './burger/Burger';
 export const Header = () => {
   const location = useLocation();
   const [open, isOpen] = useState(false);
+  const [isMobile, setMobile] = useState(window.innerWidth < 1100);
+
+  const handleMobile = () => {
+    setMobile(window.innerWidth < 1100);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleMobile);
+    return () => window.removeEventListener('resize', handleMobile);
+  });
 
   return (
     <>
@@ -48,7 +58,7 @@ export const Header = () => {
         ) : (
           <div className={styles.headerContainer}>
             <section className={styles.headerLeft}>
-              <div className={styles.name}>
+              <div className={styles.name} style={open && isMobile ? { display: 'none' } : { display: 'flex' }}>
                 JENA LUX BOEHM</div>
             </section>
             <section className={styles.headerRight}>
