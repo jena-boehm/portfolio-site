@@ -53,3 +53,9 @@ export const projects = [
 ];
 
 export const resume = 'https://drive.google.com/file/d/1h0qJTohCQPidt9QaRMmuRftqdQN-mPRE/view?usp=sharing';
+
+export const linkedin = 'https://www.linkedin.com/in/jenaluxboehm/';
+
+export const github = 'https://github.com/jena-boehm';
+
+export const email = 'mailto:jenaluxboehm@gmail.com';

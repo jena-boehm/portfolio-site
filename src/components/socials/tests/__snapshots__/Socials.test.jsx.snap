@@ -13,6 +13,8 @@ exports[`Socials component renders Socials 1`] = `
       >
         <a
           href="https://www.linkedin.com/in/jenaluxboehm/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <img
             alt="LinkedIn Icon"
@@ -35,6 +37,8 @@ exports[`Socials component renders Socials 1`] = `
       >
         <a
           href="https://github.com/jena-boehm"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <img
             alt="GitHub Icon"
@@ -57,6 +61,8 @@ exports[`Socials component renders Socials 1`] = `
       >
         <a
           href="mailto:jenaluxboehm@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <img
             alt="Email Icon"

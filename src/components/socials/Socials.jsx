@@ -6,7 +6,7 @@ import githubBottom from '../../../public/icons/white-github-icon.png';
 import githubTop from '../../../public/icons/black-github-icon.png';
 import mailBottom from '../../../public/icons/white-mail-icon.png';
 import mailTop from '../../../public/icons/black-mail-icon.png';
-import { resume } from '../../data/data.js';
+import { resume, linkedin, github, email } from '../../data/data.js';
 
 export const Socials = () => {
 
@@ -18,7 +18,7 @@ export const Socials = () => {
     <div className={styles.socialsContainer}>
       <div className={styles.icons}>
         <div className={styles.iconContainer}>
-          <a href="https://www.linkedin.com/in/jenaluxboehm/">
+          <a href={linkedin} target="_blank" rel = "noopener noreferrer">
             <img 
               className={styles.iconBottom} 
               src={linkedInBottom} 
@@ -33,7 +33,7 @@ export const Socials = () => {
         </div> 
 
         <div className={styles.iconContainer}>
-          <a href="https://github.com/jena-boehm">
+          <a href={github} target="_blank" rel = "noopener noreferrer">
             <img 
               className={styles.iconBottom} 
               src={githubBottom} 
@@ -48,7 +48,7 @@ export const Socials = () => {
         </div> 
 
         <div className={styles.iconContainer}>
-          <a href="mailto:jenaluxboehm@gmail.com">
+          <a href={email} target="_blank" rel = "noopener noreferrer">
             <img 
               className={styles.iconBottom} 
               src={mailBottom} 
