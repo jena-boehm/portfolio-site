@@ -9,7 +9,8 @@
 body {
     background: linear-gradient(360deg, #0b0433 10%, #000000 100%);
     min-height: 90vh;
-    width: auto;
+    width: 98vw;
+    min-width: -webkit-fill-available;
     margin: 10vh 0 0 0;
     padding: 0;
 }

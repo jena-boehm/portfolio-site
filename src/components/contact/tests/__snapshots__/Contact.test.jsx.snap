@@ -11,11 +11,16 @@ exports[`Contact component renders Contact 1`] = `
       CONTACT
     </h1>
     <section
-      class="aboutRight"
+      class="contactRight"
     >
       <section
         class="rightMain"
       >
+        <div
+          class="titleTop"
+        >
+          CONTACT
+        </div>
         <section
           class="rightTop"
         >

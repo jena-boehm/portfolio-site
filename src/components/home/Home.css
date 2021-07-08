@@ -36,11 +36,29 @@
     }
 }
 
-@media (min-width: 1500px) {
+@media (max-width: 1500px) {
     .homeAbout {
 
         .scrollLocation {
             margin-bottom: 6vh;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .homeAbout {
+
+        .scrollLocation {
+            margin-bottom: 13vh;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .homeAbout {
+
+        .scrollLocation {
+            margin-bottom: 9vh;
         }
     }
 }
