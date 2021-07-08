@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Contact.css';
 import { Socials } from '../socials/Socials';
 
@@ -9,7 +9,17 @@ export const Contact = () => {
   const [role, setRole] = useState('');
   const [company, setCompany] = useState('');
   const [message, setMessage] = useState('');
-  const [isSent, setIsSent] = useState(false);
+  const [isSent, setIsSent] = useState(true);
+  const [isMobile, setMobile] = useState(window.innerWidth < 1100);
+
+  const handleMobile = () => {
+    setMobile(window.innerWidth < 1100);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleMobile);
+    return () => window.removeEventListener('resize', handleMobile);
+  });
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -88,8 +98,10 @@ export const Contact = () => {
       <h1 className={styles.titleLeft}>
             CONTACT
       </h1>
-      <section className={styles.aboutRight}>
+      <section className={styles.contactRight}>
         <section className={styles.rightMain}>
+          {isMobile 
+        && <div className={styles.titleTop}>CONTACT</div>}
           {isSent ? thankYouMessage : contactForm}
         </section>
         <section className={styles.socials}>

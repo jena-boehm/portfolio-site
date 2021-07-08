@@ -11,101 +11,23 @@ exports[`Contact component renders Contact 1`] = `
       CONTACT
     </h1>
     <section
-      class="aboutRight"
+      class="contactRight"
     >
       <section
         class="rightMain"
       >
-        <section
-          class="rightTop"
+        <div
+          class="titleTop"
         >
-          Let's chat!
-        </section>
-        <form
-          autocomplete="none"
-          class="form"
+          CONTACT
+        </div>
+        <div
+          class="thankYou"
         >
-          <div
-            class="formInput"
-          >
-            <input
-              autocomplete="none"
-              name="contactName7890"
-              required=""
-              type="contactName7890"
-            />
-            <label
-              for="contactName7890"
-            >
-              Name
-            </label>
-          </div>
-          <div
-            class="formInput"
-          >
-            <input
-              autocomplete="none"
-              name="contactEmail7890"
-              required=""
-              type="contactEmail7890"
-            />
-            <label
-              for="contactEmail7890"
-            >
-              Email
-            </label>
-          </div>
-          <div
-            class="formInput"
-          >
-            <input
-              autocomplete="none"
-              name="contactRole7890"
-              required=""
-              type="contactRole7890"
-            />
-            <label
-              for="contactRole7890"
-            >
-              Role
-            </label>
-          </div>
-          <div
-            class="formInput"
-          >
-            <input
-              autocomplete="none"
-              name="contactCompany7890"
-              required=""
-              type="contactCompany7890"
-            />
-            <label
-              for="contactCompany7890"
-            >
-              Company
-            </label>
-          </div>
-          <div
-            class="formInput"
-          >
-            <input
-              autocomplete="on"
-              name="contactMessage7890"
-              required=""
-              type="contactMessage7890"
-            />
-            <label
-              for="contactMessage7890"
-            >
-              Message
-            </label>
-          </div>
-          <button
-            type="submit"
-          >
-            Send
-          </button>
-        </form>
+          Thanks for reaching out! We'll be in touch. 
+          <br />
+          In the meantime, let's connect on LinkedIn and GitHub!
+        </div>
       </section>
       <section
         class="socials"
