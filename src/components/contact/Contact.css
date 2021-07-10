@@ -173,7 +173,66 @@
     }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 2001px) {
+    .contactContainer {
+
+        .titleLeft {
+            left: -9vw;
+            font-size: 10em;
+        }
+
+        .contactRight {
+            margin: 4vh 2em 1em 10em;
+
+            .rightMain {
+
+                .form {
+                    padding: 4em 0 3em 0;
+
+                    .formInput {
+
+                        label {
+                            font-size: 1.5em;
+                        }
+
+                        input {
+                            padding: 1em 0;
+                            font-size: 1.5em;
+                        }
+
+                        input:focus {
+                            padding: 1em 0;
+                            font-size: 1.5em;
+                        }
+
+                        input:focus + label {
+                            font-size: 1em;
+                        }
+    
+                        input:valid + label {
+                            font-size: 1em;
+                        }
+    
+                        input:autofill + label {
+                            font-size: 1em;
+                        }
+                    }
+
+                    button {
+                        margin-top: 1em;
+                        font-size: 1.5em;
+                    }
+                }
+            }
+            
+            .socials {
+                margin-top: 2em;
+            }
+        }
+    }
+}
+
+@media (max-width: 2000px) {
     .contactContainer {
 
         .titleLeft {
@@ -189,6 +248,35 @@
                 .form {
                     padding: 4em 0 3em 0;
 
+                    .formInput {
+
+                        label {
+                            font-size: 1.3em;
+                        }
+
+                        input {
+                            padding: 1em 0;
+                            font-size: 1.3em;
+                        }
+
+                        input:focus {
+                            padding: 1em 0;
+                            font-size: 1.3em;
+                        }
+
+                        input:focus + label {
+                            font-size: 1em;
+                        }
+    
+                        input:valid + label {
+                            font-size: 1em;
+                        }
+    
+                        input:autofill + label {
+                            font-size: 1em;
+                        }
+                    }
+
                     button {
                         margin-top: 1em;
                     }
@@ -197,6 +285,132 @@
             
             .socials {
                 margin-top: 2em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .contactContainer {
+
+        .titleLeft {
+            left: -13vw;
+            font-size: 8em;
+        }
+
+        .contactRight {
+            margin: 4vh 2em 1em 10em;
+
+            .rightMain {
+
+                .rightTop {
+                    font-size: 1.3em;
+                }
+
+                .form {
+                    padding: 3em 0 2em 0;
+
+                    .formInput {
+
+                        label {
+                            font-size: 0.9em;
+                        }
+
+                        input {
+                            padding: 0.8em 0;
+                            font-size: 0.9em;
+                        }
+
+                        input:focus {
+                            padding: 0.8em 0;
+                            font-size: 0.9em;
+                        }
+
+                        input:focus + label {
+                            font-size: 0.8em;
+                        }
+    
+                        input:valid + label {
+                            font-size: 0.8em;
+                        }
+    
+                        input:autofill + label {
+                            font-size: 0.8em;
+                        }
+                    }
+
+                    button {
+                        margin-top: 1em;
+                        font-size: 0.9em;
+                    }
+                }
+            }
+            
+            .socials {
+                margin-top: 1em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .contactContainer {
+
+        .titleLeft {
+            left: -13vw;
+            font-size: 7em;
+        }
+
+        .contactRight {
+            margin: 2vh 2em 1em 10em;
+
+            .rightMain {
+
+                .rightTop {
+                    font-size: 1.3em;
+                }
+
+                .form {
+                    padding: 2.5em 0 2em 0;
+
+                    .formInput {
+
+                        label {
+                            font-size: 0.9em;
+                        }
+
+                        input {
+                            padding: 0.8em 0;
+                            font-size: 0.9em;
+                        }
+
+                        input:focus {
+                            padding: 0.8em 0;
+                            font-size: 0.9em;
+                        }
+
+                        input:focus + label {
+                            font-size: 0.8em;
+                        }
+    
+                        input:valid + label {
+                            font-size: 0.8em;
+                        }
+    
+                        input:autofill + label {
+                            font-size: 0.8em;
+                        }
+                    }
+
+                    button {
+                        margin-top: 0;
+                        font-size: 0.9em;
+                    }
+                }
+            }
+            
+            .socials {
+                margin-top: 1em;
             }
         }
     }

@@ -62,9 +62,9 @@
   } 
 }
 
-@media (min-width: 1801px) {
+@media (min-width: 2001px) {
   .burgerClosed {
-    margin-bottom: -2vh;
+    margin-bottom: -0.5vh;
     
     .bar1, .bar2, .bar3 {
       height: 0.8vh;
@@ -73,18 +73,62 @@
   }
 
   .burgerOpen {
-    margin-bottom: -2vh;
+    margin-bottom: -1vh;
 
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: -0.1em;
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .burgerClosed {
+    margin-bottom: -0.5vh;
+    
     .bar1, .bar2, .bar3 {
       height: 0.8vh;
       width: 2.9vw;
     }
   }
+
+  .burgerOpen {
+    margin-bottom: -1.5vh;
+
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: -0.1em;
+    }
+  }
 }
 
-@media (min-width: 1500px) {
+@media (max-width: 1600px) {
   .burgerClosed {
-    margin-bottom: -0.5vh;
+    margin-bottom: 0.5vh;
+    
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+    }
+  }
+
+  .burgerOpen {
+    margin-bottom: -1vh;
+    height: 7vh;
+    
+    .bar1, .bar2, .bar3 {
+      height: 0.8vh;
+      width: 2.9vw;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .burgerClosed {
+    margin-bottom: 1vh;
     
     .bar1, .bar2, .bar3 {
       height: 0.8vh;
