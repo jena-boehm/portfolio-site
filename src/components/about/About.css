@@ -239,7 +239,7 @@ html {
     .aboutContainer {
 
         .titleLeft {
-            left: -11vw;
+            left: -10vw;
             font-size: 10em;
         }
 
@@ -342,7 +342,7 @@ html {
     .aboutContainer {
 
         .titleLeft {
-            left: -12vw;
+            left: -11vw;
             font-size: 8em;
         }
 
@@ -395,6 +395,16 @@ html {
         }
     }
 } 
+
+@media (max-width: 1300px) {
+    .aboutContainer {
+
+        .titleLeft {
+            left: -12vw;
+            font-size: 8em;
+        }
+    }
+}
 
 @media (max-width: 1100px) {
     .aboutContainer {
