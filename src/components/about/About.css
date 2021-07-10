@@ -191,7 +191,51 @@ html {
     }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 2001px) {
+    .aboutContainer {
+
+        .titleLeft {
+            left: -9vw;
+            font-size: 12em;
+        }
+
+        .aboutRight {
+
+            .aboutRightSection {
+
+                .rightTop {
+
+                    .description {
+                        font-size: 2em;
+                    }
+                }
+
+                .rightMain {
+                    height: 65vh;
+
+                    .bio {
+                        font-size: 1.6em;
+                    }
+
+                    .techStack {
+                        font-size: 1.7em;
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                margin-bottom: 4vh;
+                font-size: 1.5em;
+            }
+
+            .scroll {
+                margin: 4vh 0 10vh 0;
+            }
+        }
+    }
+} 
+
+@media (max-width: 2000px) {
     .aboutContainer {
 
         .titleLeft {
@@ -201,8 +245,148 @@ html {
 
         .aboutRight {
 
+            .aboutRightSection {
+
+                .rightTop {
+
+                    .description {
+                        font-size: 1.5em;
+                    }
+                }
+
+                .rightMain {
+                    height: 65vh;
+
+                    .bio {
+                        font-size: 1.3em;
+                    }
+
+                    .techStack {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                margin: 3vh;
+                font-size: 1.3em;
+            }
+
+            .scroll {
+                margin: 4vh 0 10vh 0;
+            }
+        }
+    }
+} 
+
+@media (max-width: 1600px) {
+    .aboutContainer {
+
+        .titleLeft {
+            left: -12vw;
+            font-size: 9em;
+        }
+
+        .aboutRight {
+
+            .aboutRightSection {
+
+                .rightTop {
+
+                    .description {
+                        font-size: 1em;
+                    }
+                }
+
+                .rightMain {
+                    height: 65vh;
+
+                    .bio {
+                        font-size: 1.1em;
+                    }
+
+                    .techStack {
+                        font-size: 1.2em;
+
+                        .techStackLeft {
+
+                            .stackHeader {
+                                font-size: 0.7em;
+                                margin-top: 3em;
+                            }
+                        }
+
+                        .techStackRight {
+
+                            .stackHeader {
+                                font-size: 0.7em;
+                                margin-top: 3em;
+                            }
+                        }
+                    }
+                }
+            }
+
             .bottomBlurb {
                 margin-bottom: 4vh;
+            }
+
+            .scroll {
+                margin: 4vh 0 10vh 0;
+            }
+        }
+    }
+} 
+
+@media (max-width: 1500px) {
+    .aboutContainer {
+
+        .titleLeft {
+            left: -12vw;
+            font-size: 8em;
+        }
+
+        .aboutRight {
+
+            .aboutRightSection {
+
+                .rightTop {
+
+                    .description {
+                        font-size: 1em;
+                    }
+                }
+
+                .rightMain {
+                    height: 65vh;
+
+                    .bio {
+                        font-size: 0.9em;
+                    }
+
+                    .techStack {
+                        font-size: 0.9em;
+
+                        .techStackLeft {
+
+                            .stackHeader {
+                                margin-top: 3em;
+                            }
+                        }
+
+                        .techStackRight {
+
+                            .stackHeader {
+                                margin-top: 3em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottomBlurb {
+                margin: 1vh;
+                font-size: 0.9em;
             }
 
             .scroll {
@@ -452,7 +636,7 @@ html {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .aboutContainer {
 
         .aboutRight {

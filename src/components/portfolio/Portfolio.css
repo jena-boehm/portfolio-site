@@ -78,16 +78,142 @@
     }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 2001px) {
     .portfolioContainer {
 
         .titleLeft {
             left: -13vw;
+            font-size: 10em;
+        }
+
+        .portfolioMain {
+            margin: 7vh 2em 3em 10em;
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 2em;
+                    }
+
+                    .projectImage {
+                        height: 30vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 2000px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            left: -11vw;
             font-size: 7em;
         }
 
         .portfolioMain {
             margin: 7vh 2em 3em 10em;
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 1.5em;
+                    }
+
+                    .projectImage {
+                        height: 30vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            left: -13vw;
+            font-size: 6em;
+        }
+
+        .portfolioMain {
+            margin: 7vh 2em 3em 10em;
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 1em;
+                    }
+
+                    .projectImage {
+                        height: 25vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            left: -12vw;
+            font-size: 5.5em;
+        }
+
+        .portfolioMain {
+            margin: 7vh 2em 3em 10em;
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 1em;
+                    }
+
+                    .projectImage {
+                        height: 25vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .portfolioContainer {
+
+        .titleLeft {
+            left: -16vw;
+            font-size: 6em;
+        }
+
+        .portfolioMain {
+            margin: 7vh 2em 3em 10em;
+
+            .portfolioGrid {
+
+                .projectItem {
+
+                    .projectName {
+                        font-size: 1em;
+                    }
+
+                    .projectImage {
+                        height: 25vh;
+                    }
+                }
+            }
         }
     }
 }
