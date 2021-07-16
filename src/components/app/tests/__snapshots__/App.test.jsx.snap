@@ -266,7 +266,7 @@ exports[`App component renders App 1`] = `
                     Libraries & Frameworks:
                   </div>
                   <div>
-                    React, Redux, NodeJS, Twilio, ExpressJS, Superagent, GraphQL
+                    React, NodeJS, Twilio, ExpressJS, Superagent, GraphQL
                   </div>
                 </div>
                 <div
