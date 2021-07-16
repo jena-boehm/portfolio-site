@@ -88,7 +88,7 @@ export const About = () => {
 
                 <div className={styles.stackItem}>
                   <div className={styles.stackHeader}>Libraries & Frameworks:</div>
-                  <div>React, Redux, NodeJS, Twilio, ExpressJS, Superagent, GraphQL</div>
+                  <div>React, NodeJS, Twilio, ExpressJS, Superagent, GraphQL</div>
                 </div>
 
                 <div className={styles.stackItem}>
