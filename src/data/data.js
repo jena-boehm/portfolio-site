@@ -52,7 +52,7 @@ export const projects = [
   }
 ];
 
-export const resume = 'https://drive.google.com/file/d/1h0qJTohCQPidt9QaRMmuRftqdQN-mPRE/view?usp=sharing';
+export const resume = 'https://drive.google.com/file/d/1jjp82hcOhEcj7-ZbPOkMD5jzVe_KXuPM/view?usp=sharing';
 
 export const linkedin = 'https://www.linkedin.com/in/jenaluxboehm/';
 
