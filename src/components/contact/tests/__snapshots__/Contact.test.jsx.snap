@@ -29,7 +29,6 @@ exports[`Contact component renders Contact 1`] = `
         <form
           autocomplete="none"
           class="form"
-          data-netlify="true"
           name="portfolio-contact"
         >
           <div

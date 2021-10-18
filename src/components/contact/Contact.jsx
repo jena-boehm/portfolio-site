@@ -23,11 +23,11 @@ export const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    fetch(`${process.env.ZAPIER_URL}`, {
-      method: 'POST',
-      body: JSON.stringify({ name, email, role, company, message })
-    })
-      .then(() => setIsSent(true))
+    // fetch(`${process.env.ZAPIER_URL}`, {
+    //   method: 'POST',
+    //   body: JSON.stringify({ name, email, role, company, message })
+    // })
+    setIsSent(true)
       .catch(() => alert('There was an error, please try again'));
   };
 
@@ -37,7 +37,7 @@ export const Contact = () => {
     <section className={styles.rightTop}>
       Let&apos;s chat!
     </section>  
-    <form className={styles.form} name="portfolio-contact" autoComplete="none" data-netlify="true" onSubmit={handleSubmit}>
+    <form className={styles.form} name="portfolio-contact" autoComplete="none" netlify onSubmit={handleSubmit}>
 
       <div className={styles.formInput}>
         <input
