@@ -21,14 +21,21 @@ export const Contact = () => {
     return () => window.removeEventListener('resize', handleMobile);
   });
 
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
+  };
+
   const handleSubmit = e => {
     e.preventDefault();
-    fetch(`${process.env.ZAPIER_URL}`, {
+    fetch('/', {
       method: 'POST',
-      body: JSON.stringify({ name, email, role, company, message })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'portfolio-contact', name, email, role, company, message })
     })
       .then(() => setIsSent(true))
-      .catch(() => alert('There was an error, please try again'));
+      .catch(() => alert('Please try again'));
   };
 
   const thankYouMessage = <div className={styles.thankYou}>Thanks for reaching out! We&apos;ll be in touch. <br/>In the meantime, let&apos;s connect on LinkedIn and GitHub!</div>;
@@ -37,13 +44,15 @@ export const Contact = () => {
     <section className={styles.rightTop}>
       Let&apos;s chat!
     </section>  
-    <form className={styles.form} onSubmit={handleSubmit} autoComplete="none">
+    <form className={styles.form} name="portfolio-contact" autoComplete="none" method="post" onSubmit={handleSubmit}>
+
+      <input type="hidden" name="form-name" value="portfolio-contact" />
 
       <div className={styles.formInput}>
         <input
           required
-          type="contactName7890"
-          name="contactName7890"
+          type="text"
+          name="portfolio-name"
           autoComplete="none"
           onChange={e => setName(e.target.value)}/>
         <label htmlFor="contactName7890">Name</label>
@@ -52,8 +61,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="contactEmail7890"
-          name="contactEmail7890"
+          type="email"
+          name="portfolio-email"
           autoComplete="none"
           onChange={e => setEmail(e.target.value)}/>
         <label htmlFor="contactEmail7890">Email</label> 
@@ -62,8 +71,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="contactRole7890"
-          name="contactRole7890"
+          type="text"
+          name="portfolio-role"
           autoComplete="none"
           onChange={e => setRole(e.target.value)}/>  
         <label htmlFor="contactRole7890">Role</label> 
@@ -72,8 +81,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="contactCompany7890"
-          name="contactCompany7890"
+          type="text"
+          name="portfolio-company"
           autoComplete="none"
           onChange={e => setCompany(e.target.value)}/>
         <label htmlFor="contactCompany7890">Company</label> 
@@ -82,8 +91,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="contactMessage7890"
-          name="contactMessage7890"
+          type="text"
+          name="portfolio-message"
           autoComplete="on"
           onChange={e => setMessage(e.target.value)}/>
         <label htmlFor="contactMessage7890">Message</label> 
