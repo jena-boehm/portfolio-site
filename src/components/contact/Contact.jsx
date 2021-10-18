@@ -36,7 +36,7 @@ export const Contact = () => {
     <section className={styles.rightTop}>
       Let&apos;s chat!
     </section>  
-    <form className={styles.form} name="portfolio-contact" autoComplete="none" data-netlify="true" onSubmit={handleSubmit}>
+    <form className={styles.form} name="portfolio-contact" autoComplete="none" method="post" onSubmit={handleSubmit}>
 
       <input type="hidden" name="form-name" value="portfolio-contact" />
 
