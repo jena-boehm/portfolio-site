@@ -21,13 +21,21 @@ export const Contact = () => {
     return () => window.removeEventListener('resize', handleMobile);
   });
 
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
+  };
+
   const handleSubmit = e => {
     e.preventDefault();
-    // fetch(`${process.env.ZAPIER_URL}`, {
-    //   method: 'POST',
-    //   body: JSON.stringify({ name, email, role, company, message })
-    // })
-    setIsSent(true);
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'portfolio-contact', name, email, role, company, message })
+    })
+      .then(() => setIsSent(true))
+      .catch(() => alert('Please try again'));
   };
 
   const thankYouMessage = <div className={styles.thankYou}>Thanks for reaching out! We&apos;ll be in touch. <br/>In the meantime, let&apos;s connect on LinkedIn and GitHub!</div>;
