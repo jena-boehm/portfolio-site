@@ -29,15 +29,17 @@ exports[`Contact component renders Contact 1`] = `
         <form
           autocomplete="none"
           class="form"
+          data-netlify="true"
+          name="portfolio-contact"
         >
           <div
             class="formInput"
           >
             <input
               autocomplete="none"
-              name="contactName7890"
+              name="portfolioName"
               required=""
-              type="contactName7890"
+              type="portfolioName7890"
             />
             <label
               for="contactName7890"
@@ -50,9 +52,9 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactEmail7890"
+              name="portfolioEmail7890"
               required=""
-              type="contactEmail7890"
+              type="portfolioEmail7890"
             />
             <label
               for="contactEmail7890"
@@ -65,9 +67,9 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactRole7890"
+              name="portfolioRole7890"
               required=""
-              type="contactRole7890"
+              type="portfolioRole7890"
             />
             <label
               for="contactRole7890"
@@ -80,9 +82,9 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="none"
-              name="contactCompany7890"
+              name="portfolioCompany7890"
               required=""
-              type="contactCompany7890"
+              type="portfolioCompany7890"
             />
             <label
               for="contactCompany7890"
@@ -95,9 +97,9 @@ exports[`Contact component renders Contact 1`] = `
           >
             <input
               autocomplete="on"
-              name="contactMessage7890"
+              name="portfolioMessage7890"
               required=""
-              type="contactMessage7890"
+              type="portfolioMessage7890"
             />
             <label
               for="contactMessage7890"
