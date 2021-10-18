@@ -38,11 +38,13 @@ export const Contact = () => {
     </section>  
     <form className={styles.form} name="portfolio-contact" autoComplete="none" data-netlify="true" onSubmit={handleSubmit}>
 
+      <input type="hidden" name="form-name" value="portfolio-contact" />
+
       <div className={styles.formInput}>
         <input
           required
-          type="portfolioName7890"
-          name="portfolioName"
+          type="text"
+          name="portfolio-name"
           autoComplete="none"
           onChange={e => setName(e.target.value)}/>
         <label htmlFor="contactName7890">Name</label>
@@ -51,8 +53,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="portfolioEmail7890"
-          name="portfolioEmail7890"
+          type="email"
+          name="portfolio-email"
           autoComplete="none"
           onChange={e => setEmail(e.target.value)}/>
         <label htmlFor="contactEmail7890">Email</label> 
@@ -61,8 +63,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="portfolioRole7890"
-          name="portfolioRole7890"
+          type="text"
+          name="portfolio-role"
           autoComplete="none"
           onChange={e => setRole(e.target.value)}/>  
         <label htmlFor="contactRole7890">Role</label> 
@@ -71,8 +73,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="portfolioCompany7890"
-          name="portfolioCompany7890"
+          type="text"
+          name="portfolio-company"
           autoComplete="none"
           onChange={e => setCompany(e.target.value)}/>
         <label htmlFor="contactCompany7890">Company</label> 
@@ -81,8 +83,8 @@ export const Contact = () => {
       <div className={styles.formInput}>
         <input
           required
-          type="portfolioMessage7890"
-          name="portfolioMessage7890"
+          type="text"
+          name="portfolio-message"
           autoComplete="on"
           onChange={e => setMessage(e.target.value)}/>
         <label htmlFor="contactMessage7890">Message</label> 
