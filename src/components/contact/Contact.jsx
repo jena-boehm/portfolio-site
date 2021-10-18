@@ -27,8 +27,7 @@ export const Contact = () => {
     //   method: 'POST',
     //   body: JSON.stringify({ name, email, role, company, message })
     // })
-    setIsSent(true)
-      .catch(() => alert('There was an error, please try again'));
+    setIsSent(true);
   };
 
   const thankYouMessage = <div className={styles.thankYou}>Thanks for reaching out! We&apos;ll be in touch. <br/>In the meantime, let&apos;s connect on LinkedIn and GitHub!</div>;
