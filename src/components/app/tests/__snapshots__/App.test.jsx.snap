@@ -254,7 +254,7 @@ exports[`App component renders App 1`] = `
                     Languages:
                   </div>
                   <div>
-                    HTML, CSS, JavaScript
+                    HTML, CSS, JavaScript ES6
                   </div>
                 </div>
                 <div
@@ -266,7 +266,7 @@ exports[`App component renders App 1`] = `
                     Libraries & Frameworks:
                   </div>
                   <div>
-                    React, NodeJS, Twilio, ExpressJS, Superagent, GraphQL
+                    React, Next.js, Gatsby, Node.js, GraphQL, Express
                   </div>
                 </div>
                 <div
@@ -278,7 +278,7 @@ exports[`App component renders App 1`] = `
                     Testing:
                   </div>
                   <div>
-                    Jest, QUnit, Supertest, Travis CI, GitHub CI
+                    Jest, QUnit, Supertest, React Testing Library
                   </div>
                 </div>
                 <div
@@ -306,7 +306,7 @@ exports[`App component renders App 1`] = `
                     Tools:
                   </div>
                   <div>
-                    VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Twilio, AWS Rekognition, Ableton Live
+                    VSCode, Git, GitHub, Heroku, Netlify, Postman, PGAdmin, Ableton Live
                   </div>
                 </div>
                 <div
@@ -318,7 +318,7 @@ exports[`App component renders App 1`] = `
                     Project Management Tools:
                   </div>
                   <div>
-                    Miro, Figma, Trello, Airtable, Asana, Slack
+                    Miro, Figma, Trello, Airtable, Asana, Jira
                   </div>
                 </div>
                 <div
@@ -330,7 +330,7 @@ exports[`App component renders App 1`] = `
                     Dev Practices:
                   </div>
                   <div>
-                    Pair Programming, RESTful APIs, Agile, Test Driven Development
+                    Pair Programming, RESTful APIs, Agile, Test Driven Development, Design Driven Development
                   </div>
                 </div>
               </div>
