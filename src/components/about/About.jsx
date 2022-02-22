@@ -104,7 +104,7 @@ export const About = () => {
               <div className={styles.techStackLeft}>
                 <div className={styles.stackItem}>
                   <div className={styles.stackHeader}>Languages:</div>
-                  <div>HTML, CSS, JavaScript ES6</div>
+                  <div>JavaScript, TypeScript, CSS, Sass, HTML</div>
                 </div>
 
                 <div className={styles.stackItem}>
