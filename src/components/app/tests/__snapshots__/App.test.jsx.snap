@@ -254,7 +254,7 @@ exports[`App component renders App 1`] = `
                     Languages:
                   </div>
                   <div>
-                    HTML, CSS, JavaScript ES6
+                    JavaScript, TypeScript, CSS, Sass, HTML
                   </div>
                 </div>
                 <div
